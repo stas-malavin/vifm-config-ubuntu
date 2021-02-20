@@ -1,0 +1,3809 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Options:
+=aproposprg=apropos\ %a
+=autochpos
+=cdpath=
+=nochaselinks
+=columns=212
+=cpoptions=fst
+=deleteprg=
+=fastrun
+=findprg=find\ %s\ %a\ -print\ ,\ -type\ d\ \\(\ !\ -readable\ -o\ !\ -executable\ \\)\ -prune
+=followlinks
+=fusehome=/tmp/vifm_FUSE/
+=nogdefault
+=grepprg=grep\ -n\ -H\ -I\ -r\ %i\ %a\ %s
+=histcursor=startup,dirmark,direnter
+=history=101
+=hlsearch
+=noiec
+=ignorecase
+=incsearch
+=laststatus
+=notitle
+=lines=52
+=locateprg=locate\ %a
+=mintimeoutlen=150
+=noquickview
+=rulerformat=%l/%S\ 
+=norunexec
+=noscrollbind
+=scrolloff=4
+=shell=/bin/bash
+=shortmess=p
+=showtabline=multiple
+=sizefmt=units:iec
+=slowfs=curlftpfs
+=smartcase
+=sortnumbers
+=statusline=\ \ %t%=\ %A\ %10u:%-7g\ %15s\ %20d\ \ 
+=syncregs=
+=tabscope=global
+=tabstop=8
+=timefmt=%d/%m/%y\ %H:%M
+=timeoutlen=1000
+=trash
+=tuioptions=ps
+=undolevels=100
+=vicmd=vim
+=vixcmd=
+=wrapscan
+=[viewcolumns=-{name}..,10%{size}.,-15%{mtime}.
+=]viewcolumns=-{name}..,10%{size}.,-15%{mtime}.
+=[sortgroups=
+=]sortgroups=
+=[lsoptions=
+=]lsoptions=
+=[nolsview
+=]nolsview
+=[milleroptions=lsize:1,csize:1,rsize:1
+=]milleroptions=lsize:1,csize:1,rsize:1
+=[nomillerview
+=]nomillerview
+=[nonumber
+=]nonumber
+=[numberwidth=4
+=]numberwidth=4
+=[norelativenumber
+=]norelativenumber
+=[nodotfiles
+=]nodotfiles
+=[previewprg=
+=]previewprg=
+=confirm=permdelete
+=dotdirs=nonrootparent
+=caseoptions=
+=suggestoptions=
+=iooptions=
+=dirsize=size=classify=:dir:/
+=vifminfo=options,bookmarks,tui,state,registers,chistory,dhistory,dirstack,fhistory,phistory,shistory,savedirs
+=novimhelp
+=wildmenu
+=wildstyle=bar
+=wordchars=1-8,14-31,33-255
+=wrap
+
+# Marks:
+'B
+	/bin
+	..
+1521640751
+'C
+	/home/stas/.config
+	..
+1521640751
+'D
+	/home/stas/Downloads
+	..
+1521640751
+'G
+	/home/stas/Documents/GitHub
+	..
+1521640751
+'H
+	/home/stas/
+	..
+1536642376
+'M
+	/media/stas
+	..
+1521640751
+'P
+	/home/stas/Programs
+	..
+1532465471
+'V
+	/home/stas/.config/vifm
+	vifmrc
+1612431746
+'W
+	/mnt/WIN/Users/Stas.Malavin
+	..
+1521640751
+'b
+	/home/stas/Documents/BIOINFO
+	..
+1607195970
+'d
+	/home/stas/Documents
+	..
+1521640751
+'e
+	/home/stas/Documents/EnviroSurveR
+	..
+1521640751
+'g
+	/home/stas/Documents/GAMMARACANTHUS
+	..
+1521640751
+'h
+	/home/stas/
+	..
+1536642376
+'l
+	/home/stas/Documents/БИБЛИОТЕКА
+	..
+1521640751
+'m
+	/home/stas/Music
+	..
+1554257266
+'p
+	/home/stas/Pictures
+	..
+1521640751
+'r
+	/home/stas/R/x86_64-pc-linux-gnu-library/
+	..
+1521640751
+'s
+	/home/stas/Documents/SPECIES
+	..
+1531629554
+'v
+	/home/stas/Videos
+	..
+1521640751
+
+# TUI:
+ar
+q0
+v2
+ov
+m-1
+l12
+r-11,2
+
+# Left window history (oldest to newest):
+d/home/stas/Documents/SPECIES/ETC
+	SCL-for-subm
+1
+d/home/stas/Documents/SPECIES
+	Filamoeba
+11
+d/home/stas/Documents
+	PAPERS
+15
+d/home/stas/Documents/PAPERS
+	BDJ-Collection-2020
+1
+d/home/stas/Documents/PAPERS/BDJ-Collection-2020
+	..
+0
+d/home/stas/Documents/PAPERS
+	BDJ-Collection-2020
+1
+d/home/stas/Documents
+	PAPERS
+15
+d/home/stas/Documents/SPECIES
+	Filamoeba
+11
+d/home/stas/Documents/SPECIES/Filamoeba
+	..
+0
+d/home/stas/Documents/SPECIES
+	Adineta
+9
+d/home/stas/Documents/SPECIES/Adineta
+	15-7
+1
+d/home/stas/Documents/SPECIES/Adineta/15-7
+	SUBM
+4
+d/home/stas/Documents/SPECIES/Adineta/15-7/SUBM
+	CB
+1
+d/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB
+	sleepingbeauty
+5
+d/home/stas/Documents/SPECIES/Adineta/15-7/SUBM
+	CB
+1
+d/home/stas/Documents/SPECIES/Adineta/15-7
+	SUBM
+4
+d/home/stas/Documents/SPECIES/Adineta/15-7/SUBM
+	CB
+1
+d/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB
+	sleepingbeauty
+5
+d/home/stas/Documents/SPECIES/Adineta/15-7/SUBM
+	CB
+1
+d/home/stas/Documents/SPECIES/Adineta/15-7
+	VIDEO
+5
+d/home/stas/Documents/SPECIES/Adineta/15-7/VIDEO
+	..
+0
+d/home/stas/Documents/SPECIES/Adineta/15-7
+	VIDEO
+5
+d/home/stas/Documents/SPECIES/Adineta
+	15-7
+1
+d/home/stas/Documents/SPECIES
+	Acanthamoeba
+8
+d/home/stas/Documents/SPECIES/Acanthamoeba
+	..
+0
+d/home/stas/Documents/SPECIES
+	Acanthamoeba
+8
+d/home/stas/Documents
+	SPECIES
+22
+d/home/stas
+	Documents
+42
+d/home/stas/Documents
+	SPECIES
+22
+d/home/stas/Documents/SPECIES
+	Acanthamoeba
+8
+d/home/stas/Documents/SPECIES/Acanthamoeba
+	SEQ
+12
+d/home/stas/Documents/SPECIES/Acanthamoeba/SEQ
+	16S
+2
+d/home/stas/Documents/SPECIES/Acanthamoeba/SEQ/16S
+	2018
+1
+d/home/stas/Documents/SPECIES/Acanthamoeba/SEQ/16S/2018
+	..
+0
+d/home/stas/Documents/SPECIES/Acanthamoeba/SEQ/16S
+	T4
+5
+d/home/stas/Documents/SPECIES/Acanthamoeba/SEQ/16S/T4
+	iqtree
+1
+d/home/stas/Documents/SPECIES/Acanthamoeba/SEQ/16S/T4/iqtree
+	..
+0
+d/home/stas/Documents/SPECIES/Acanthamoeba/SEQ/16S/T4
+	iqtree
+1
+d/home/stas/Documents/SPECIES/Acanthamoeba/SEQ/16S
+	T4
+5
+d/home/stas/Documents/SPECIES/Acanthamoeba/SEQ
+	16S
+2
+d/home/stas/Documents/SPECIES/Acanthamoeba
+	SEQ
+12
+d/home/stas/Documents/SPECIES
+	Acanthamoeba
+8
+d/home/stas/Documents
+	scimago
+21
+d/home/stas/Documents/scimago
+	..
+0
+d/home/stas/Documents
+	GIS
+11
+d/home/stas/Documents/GIS
+	..
+0
+d/home/stas/Documents
+	.debris
+1
+d/home/stas/Documents/.debris
+	..
+0
+d/home/stas/Documents
+	ViberDownloads
+26
+d/home/stas/Documents/ViberDownloads
+	..
+0
+d/home/stas/Documents
+	BIOINFO
+5
+d/home/stas/Documents/BIOINFO
+	..
+0
+d/home/stas/Documents
+	BIOINFO
+5
+d/media/stas
+	Linux Mint 20.1 Cinnamon 64-bit
+2
+d/media/stas/Linux Mint 20.1 Cinnamon 64-bit
+	..
+0
+d/media/stas
+	Linux Mint 20.1 Cinnamon 64-bit
+2
+d/media
+	stas
+1
+d/media/stas
+	DATA
+2
+d/media/stas/DATA
+	..
+0
+d/media/stas
+	DATA
+2
+d/home/stas/Documents
+	.debris
+1
+d/home/stas/Documents/.debris
+	2020-12-26
+1
+d/home/stas/Documents
+	.debris
+1
+d/home/stas/Documents/.debris
+	2021-01-21
+12
+d/home/stas/Documents/.debris/2021-01-21
+	5_HCO2198_F4.ab1
+13
+d/home/stas/Documents/.debris
+	2021-01-21
+12
+d/home/stas/Documents
+	_TMP
+2
+d/home/stas/Documents/_TMP
+	sync
+5
+d/home/stas/Documents/_TMP/sync
+	..
+0
+d/home/stas/Documents/_TMP
+	MUMMER-study
+4
+d/home/stas/Documents/_TMP/MUMMER-study
+	..
+0
+d/home/stas/Documents/_TMP
+	mmc
+3
+d/home/stas/Documents/_TMP/mmc
+	..
+0
+d/home/stas/Documents/_TMP
+	inext
+2
+d/home/stas/Documents/_TMP/inext
+	..
+0
+d/home/stas/Documents/_TMP
+	AWK-study
+1
+d/home/stas/Documents/_TMP/AWK-study
+	..
+0
+d/home/stas/Documents/_TMP
+	tmp
+5
+d/home/stas/Documents
+	PRMF_WGS
+18
+d/home/stas/Documents/PRMF_WGS
+	..
+0
+d/home/stas/Documents
+	PRMF_WGS
+18
+d/media/stas
+	DATA
+2
+d/media/stas/DATA
+	AstroBio2020Zoom
+1
+d/media/stas
+	DATA
+1
+d/media/stas/DATA
+	AstroBio2020Zoom
+1
+d/media/stas/DATA/AstroBio2020Zoom
+	..
+0
+d/media/stas/DATA
+	AstroBio2020Zoom
+1
+d/media/stas/DATA/AstroBio2020Zoom
+	2020-10-05
+1
+d/media/stas/DATA
+	AstroBio2020Zoom
+1
+d/media/stas
+	DATA
+1
+d/media/stas/DATA
+	AstroBio2020Zoom
+1
+d/media/stas
+	DATA
+1
+d/media/stas/DATA
+	AstroBio2020Zoom
+1
+d/media/stas/DATA/AstroBio2020Zoom
+	2020-10-05
+1
+d/media/stas/DATA/AstroBio2020Zoom/2020-10-05
+	..
+0
+d/media/stas/DATA/AstroBio2020Zoom
+	2020-10-05
+1
+d/media/stas/DATA
+	AstroBio2020Zoom
+1
+d/media/stas
+	DATA
+1
+d/home/stas/Documents
+	PRMF_WGS
+18
+d/home/stas/Documents/BIOINFO
+	ALAZEYA
+3
+d/home/stas/Documents/BIOINFO/ALAZEYA
+	5-02-2021.xlsx
+1
+d
+
+# Right window history (oldest to newest):
+D/home/stas/Downloads/MetagenCourse/ftp.ebi.ac.uk/pub
+	training
+1
+D/home/stas/Downloads/MetagenCourse/ftp.ebi.ac.uk/pub/training
+	2020
+1
+D/home/stas/Downloads/MetagenCourse/ftp.ebi.ac.uk/pub/training/2020
+	Metagenomics_Bioinformatics_20
+1
+D/home/stas/Downloads/MetagenCourse/ftp.ebi.ac.uk/pub/training/2020/Metagenomics_Bioinformatics_20
+	Day_2
+1
+D/home/stas/Downloads/MetagenCourse/ftp.ebi.ac.uk/pub/training/2020/Metagenomics_Bioinformatics_20/Day_2
+	3 - Chris Quince - Strain resolution
+1
+D/home/stas/Downloads/MetagenCourse/ftp.ebi.ac.uk/pub/training/2020/Metagenomics_Bioinformatics_20/Day_2/3 - Chris Quince - Strain resolution
+	..
+0
+D/home/stas/Downloads/MetagenCourse/ftp.ebi.ac.uk/pub/training/2020/Metagenomics_Bioinformatics_20/Day_2
+	1 - Lorna Richardson and Rob Finn - MGnify services
+2
+D/home/stas/Downloads/MetagenCourse/ftp.ebi.ac.uk/pub/training/2020/Metagenomics_Bioinformatics_20/Day_2/1 - Lorna Richardson and Rob Finn - MGnify services
+	..
+0
+D/home/stas/Downloads/MetagenCourse/ftp.ebi.ac.uk/pub/training/2020/Metagenomics_Bioinformatics_20/Day_2
+	2 - Ben Allen - MGnifyR
+3
+D/home/stas/Downloads/MetagenCourse/ftp.ebi.ac.uk/pub/training/2020/Metagenomics_Bioinformatics_20/Day_2/2 - Ben Allen - MGnifyR
+	..
+0
+D/home/stas/Downloads/MetagenCourse/ftp.ebi.ac.uk/pub/training/2020/Metagenomics_Bioinformatics_20/Day_2
+	2 - Ben Allen - MGnifyR
+3
+D/home/stas/Downloads/MetagenCourse/ftp.ebi.ac.uk/pub/training/2020/Metagenomics_Bioinformatics_20
+	Day_2
+1
+D/home/stas/Downloads/MetagenCourse/ftp.ebi.ac.uk/pub/training/2020
+	Metagenomics_Bioinformatics_20
+1
+D/home/stas/Downloads/MetagenCourse/ftp.ebi.ac.uk/pub/training
+	2020
+1
+D/home/stas/Downloads/MetagenCourse/ftp.ebi.ac.uk/pub
+	training
+1
+D/home/stas/Downloads/MetagenCourse/ftp.ebi.ac.uk
+	pub
+1
+D/home/stas/Downloads/MetagenCourse
+	ftp.ebi.ac.uk
+1
+D/home/stas/Downloads
+	minetest
+3
+D/home/stas/Downloads/minetest
+	..
+0
+D/home/stas/Downloads
+	Реши-Пиши
+8
+D/home/stas/.config/vifm
+	.debris
+3
+D/home/stas/.config/vifm/.debris
+	tmp
+1
+D/home/stas/.config/vifm/.debris/tmp
+	lock
+1
+D/home/stas/.config/vifm/.debris
+	tmp
+1
+D/home/stas/.config/vifm
+	marks
+8
+D/home/stas/Downloads
+	Показатели и критерии оценки эффективности деятельности научных работников (из Положения).docx
+12
+D/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB
+	CURRENT-BIOLOGY-D-20-02285-rev1.zip
+6
+D/home/stas/Documents
+	_TMP
+1
+D/home/stas/Documents/_TMP
+	sync
+1
+D/home/stas/Documents/_TMP/sync
+	Acanthamoeba.sync
+4
+D/home/stas/Downloads
+	debian-live-10.7.0-amd64-cinnamon.iso.torrent
+13
+D/home/stas/Videos
+	Zoom
+1
+D/home/stas/Videos/Zoom
+	AstroBio2020Zoom
+1
+D/home/stas/Videos/Zoom/AstroBio2020Zoom
+	2020-10-05
+1
+D/home/stas/Videos/Zoom/AstroBio2020Zoom/2020-10-05
+	..
+0
+D/home/stas/Videos/Zoom/AstroBio2020Zoom
+	2020-10-07
+2
+D/home/stas/Videos/Zoom/AstroBio2020Zoom/2020-10-07
+	..
+0
+D/home/stas/Videos/Zoom/AstroBio2020Zoom
+	2020-10-06
+3
+D/home/stas/Videos/Zoom/AstroBio2020Zoom/2020-10-06
+	..
+0
+D/home/stas/Videos/Zoom/AstroBio2020Zoom
+	2020-10-06
+3
+D/home/stas/Videos/Zoom
+	AstroBio2020Zoom
+1
+D/home/stas/Videos
+	218-vid
+2
+D/home/stas/Videos/218-vid
+	.debris
+3
+D/home/stas/Videos/218-vid/.debris
+	..
+0
+D/home/stas/Videos/218-vid
+	ffmpeg-screencast
+1
+D/home/stas/Videos/218-vid/ffmpeg-screencast
+	..
+0
+D/home/stas/Videos/218-vid
+	ffmpeg-screencast
+1
+D/home/stas/Videos
+	New Project.mp4
+3
+D/home/stas
+	Programs
+4
+D/home/stas/Downloads
+	Показатели и критерии оценки эффективности деятельности научных работников (из Положения).docx
+13
+D/media/stas/DATA
+	tmp
+2
+D/home/stas/Videos
+	Zoom
+1
+D/home/stas/Videos/Zoom
+	AstroBio2020Zoom
+1
+D/home/stas/Videos/Zoom/AstroBio2020Zoom
+	2020-10-06
+3
+D/home/stas/Videos/Zoom/AstroBio2020Zoom/2020-10-06
+	..
+0
+D/home/stas/Videos/Zoom/AstroBio2020Zoom
+	2020-10-07
+2
+D/home/stas/Videos/Zoom/AstroBio2020Zoom/2020-10-07
+	..
+0
+D/home/stas/Videos/Zoom/AstroBio2020Zoom
+	2020-10-05
+1
+D/home/stas/Videos/Zoom/AstroBio2020Zoom/2020-10-05
+	..
+0
+D/home/stas/Videos/Zoom/AstroBio2020Zoom
+	2020-10-05
+1
+D/home/stas/Videos/Zoom
+	AstroBio2020Zoom
+1
+D/home/stas/Videos/Zoom/AstroBio2020Zoom
+	2020-10-05
+1
+D/home/stas/Videos/Zoom/AstroBio2020Zoom/2020-10-05
+	..
+0
+D/home/stas/Videos/Zoom/AstroBio2020Zoom
+	2020-10-07
+2
+D/home/stas/Videos/Zoom/AstroBio2020Zoom/2020-10-07
+	..
+0
+D/home/stas/Videos/Zoom/AstroBio2020Zoom
+	2020-10-06
+3
+D/home/stas/Videos/Zoom/AstroBio2020Zoom/2020-10-06
+	..
+0
+D/home/stas/Videos/Zoom/AstroBio2020Zoom
+	2020-10-05
+1
+D/home/stas/Videos/Zoom/AstroBio2020Zoom/2020-10-05
+	..
+0
+D/home/stas/Videos/Zoom/AstroBio2020Zoom
+	2020-10-05
+1
+D/home/stas/Videos/Zoom
+	AstroBio2020Zoom
+1
+D/home/stas/Downloads
+	5-02-2021 Subsystem Alazeya 2015.xlsx
+11
+D/media/stas/DATA/AstroBio2020Zoom
+	2020-10-06
+1
+D/media/stas/DATA/AstroBio2020Zoom/2020-10-06
+	zoom_0_2020-10-06.mp4
+1
+D/media/stas/DATA/AstroBio2020Zoom
+	2020-10-06
+1
+D/media/stas/DATA/AstroBio2020Zoom/2020-10-06
+	zoom_0_2020-10-06.mp4
+1
+D/media/stas/DATA/AstroBio2020Zoom
+	2020-10-05
+2
+D/media/stas/DATA/AstroBio2020Zoom/2020-10-05
+	..
+0
+D/media/stas/DATA/AstroBio2020Zoom
+	2020-10-06
+1
+D/media/stas/DATA/AstroBio2020Zoom/2020-10-06
+	zoom_0_2020-10-06.mp4
+1
+D/media/stas/DATA/AstroBio2020Zoom
+	2020-10-06
+1
+D/media/stas/DATA/AstroBio2020Zoom/2020-10-06
+	zoom_0_2020-10-06.mp4
+1
+D/media/stas/DATA/AstroBio2020Zoom
+	2020-10-06
+1
+D/media/stas/DATA/AstroBio2020Zoom/2020-10-06
+	zoom_0_2020-10-06.mp4
+1
+D/media/stas/DATA/AstroBio2020Zoom
+	2020-10-06
+1
+D/media/stas/DATA/AstroBio2020Zoom/2020-10-06
+	zoom_0_2020-10-06.mp4
+1
+D/media/stas/DATA/AstroBio2020Zoom
+	2020-10-06
+1
+D/media/stas/DATA/AstroBio2020Zoom/2020-10-06
+	zoom_0_2020-10-06.mp4
+1
+D/media/stas/DATA/AstroBio2020Zoom
+	2020-10-06
+1
+D/media/stas/DATA/AstroBio2020Zoom/2020-10-06
+	zoom_0_2020-10-06.mp4
+1
+D/media/stas/DATA/AstroBio2020Zoom
+	2020-10-06
+1
+D/media/stas/DATA/AstroBio2020Zoom/2020-10-06
+	zoom_0_2020-10-06.mp4
+1
+D/media/stas/DATA/AstroBio2020Zoom
+	2020-10-06
+1
+D/media/stas/DATA
+	AstroBio2020Zoom
+1
+D/media/stas/DATA/AstroBio2020Zoom
+	2020-10-06
+1
+D/media/stas/DATA
+	AstroBio2020Zoom
+1
+D/media/stas/DATA/AstroBio2020Zoom
+	2020-10-06
+1
+D/media/stas/DATA
+	AstroBio2020Zoom
+1
+D/media/stas/DATA/AstroBio2020Zoom
+	2020-10-06
+1
+D/media/stas/DATA/AstroBio2020Zoom/2020-10-06
+	zoom_0_2020-10-06.mp4
+1
+D/media/stas/DATA/AstroBio2020Zoom
+	2020-10-06
+1
+D
+
+# Command line history (oldest to newest):
+:mkdir 15-7
+:!for file in *.fna; do cat $file >> busco-fragm.fst; done
+:!for file in *.fst; do cat $file >> busco-genes.fa; done
+:mkdir Actin
+:!pigz -dk 35m_S1_L001_R1_001.fastq.gz
+:!!./ugeneui %i &
+:!for file in %f; do cat $file >> prim-3d-order.fasta; done
+:mkdir Primers
+:mkdir Mlac
+:mkdir Mcon
+:mkdir compl
+:mkdir Msp_MZ-A1
+:mkdir Mvet_medusa_Marc_medusa
+:mkdir openchrom
+:mkdir export
+:mkdir 1
+:mkdir 2
+:mkdir 3
+:mkdir 4
+:zip -r PROTNEW.%c.zip
+:mkdir OLYMPUS
+:move&
+:vim panasyuk.txt
+:mkdir Pink Floyd - The Best
+:shell
+:!sudo cp %c /usr/local/bin
+:zip NMR-Amoebae.zip %f
+:move &
+:vim GMYC-analysis.R
+:cd /opt/jai/ebus_sdk/Ubuntu-x86_64
+:!sudo chmod a+e %c
+:mkdir MethaBac
+:mkdir Marc
+:mkdir Mvet
+:vim .vimrc
+:vim test-named-args.sh
+:chown
+:!sudo ln -s /home/stas/Documents/BIOINFO/Methanobacterium/MethaBac-code/trim.sh /usr/local/games/trim.sh
+:cd /usr/local/games/
+:cd /etc/openvpn/
+:!sudo chown stas:stas %c
+:trashes
+:!sudo rm -r %c
+:cd /usr/local/lib
+:copy
+:vim Alazeya-point.csv
+:!qgis %c %i &
+:mkdir Fig
+:cd /usr/local/
+:mkdir tmp
+:!sudo ln -s 
+:!sudo ln -s /home/stas/Programs/firefox/firefox /usr/local/bin
+:!sudo ln -fs /home/stas/Programs/firefox/firefox /usr/local/bin
+:!sudo ln -sf /home/stas/Programs/UGENE/ugene /usr/local/bin/
+:!pigz -d %c
+:!pigz -dk %c
+:!pigz -dc | grep @ | wc -l %m
+:vim IGV_version_2.8.13
+:!sudo ln -s /home/stas/Programs/IGV/igv.sh /usr/local/bin
+:!sudo ln -s /home/stas/Programs/IGV/igv.sh /usr/local/bin/igv
+:vim get-consensus.txt
+:mkdir bkp
+:mkdir test1
+:!gedit %c
+:mkdir iter1
+:!sudo ln /home/stas/Programs/bbmap/bbmap.sh /usr/local/bin/bbmap
+:touch lkjl:sdlfj
+:!cat JQJK01.1.id_JQJK01000010.1.fsa_nt.1-600.fvd.fastq JQJK01.1.id_JQJK01000010.1.fsa_nt.1-600.rev.fastq > JQJK01.1.id_JQJK01000010.1.fsa_nt.1-600.fastq
+:mkdir separate-repeat-variants
+:!for file in *; do cat $file >> JQJK01.fa; done
+:!for f in *; do sed -i -e 's/.fasta//'; done
+:!for f in *; do sed -i -e 's/.fasta//' < $f; done
+:!for f in *; do sed -i -e 's/.fasta//' $f; done
+:mkdir test
+:mkdir iter01
+:mkdir fasta0
+:!cat * > JQJK01000005.1.~.iter01.fasta
+:mkdir iter02
+:mkdir iter03
+:mkdir fasta
+:mkdir cons
+:!cat * > ../JQJK01000005.1~.iter03.fasta
+:!cat ../JQJK01.1.fsa_nt.split/JQJK01.1.id_JQJK01000005.1.fsa_nt >> JQJK01000005.1~.iter03.fasta
+:split
+:vsplit
+:mkdir iter02_trim
+:chmod
+:vim VERSION
+:!seaview %c &
+:!cat *.fasta >> ../JQJK01.iter01.trim.fa
+:!libreoffice --calc %c &
+:!gedit %c &
+:cd /
+:mkdir ovpn
+:zip Щенки.zip %f
+:!!%c
+:zip CURRENT-BIOLOGY-D-20-02285-rev1.zip %f
+:copy &
+:ej
+:mkdir ALAZEYA
+:jobs
+
+# Search history (oldest to newest):
+/.vifm
+/fm
+/vifm
+/vif
+/.cache
+/sof
+/minete
+/win
+/82|100|124|132
+/awk
+/zot
+/design
+/Adi
+/ext
+/exte
+/0088
+/0054
+/logkkkkkkk
+/.local
+/app
+/.TIZ|.STA
+/.TIF
+/1 и
+/bin
+/fire
+/380
+/Advan
+/Moisee
+/fonts
+/cormo
+/logo
+/SoS
+/pdf
+/.bib
+/zo
+/csl
+/docx
+/zuu
+/mine
+/.docx
+/Шмакова
+/.xcf
+/\d_
+/.seq
+/gabr
+/_tr.fa
+/SIP
+/gmes
+/.bashr
+/agilent
+/Малявин
+/p
+/120
+/fonr
+/fon
+/azat
+/азат
+/bau
+/baulin
+/P
+/tun
+/sam
+/inde
+/index
+/.vimrc
+/vimrc
+/Malavin
+/malavin.o
+/openv
+/ud
+/udun
+/.png|.svg|.jpg
+/бъ
+/F
+/R
+/nxs
+/con
+/glo
+/ali
+/align
+/fl.fasta|fr.fasta|rl.fasta|rr.fasta
+/fsa_nt
+/bbm
+/Programs/EMBOSS-6.6.0/emboss/cons -sequence bbmap_250_sorted.1.cl-l.rmdup.mafft -outseq testcons.fasta -name EMBOSS_cons -plurality 1
+/.fasta
+/fsa
+/mau
+/mauve
+/busco
+/.bashrc
+/bashrc
+/fai
+/.
+/conda
+/blast
+/hi
+/ls
+/vpn
+/Rp
+/Ubun
+/debian
+
+# Prompt history (oldest to newest):
+pzoom_0_2020-10-07.mp4
+pzoom_0_2020-10-05.mp4
+pzoom_1_2020-10-05.mp4
+pzoom_0.mp4
+pСкобликов.mp4
+pzoom_0_2020-10-06.mp4
+pЦИН-2020-Malavin.pdf
+p Воскресенье - По дороге разочарований.mp3
+pВоскресенье - По дороге разочарований.mp3
+pPink Floyd - The Best
+pIves-2000-Mixed-and-phylogenetic-models.pdf
+pIves-2018-Mixed-and-phylogenetic-models.pdf
+pSwenson-2014-Functional-and-phylogenetic-ecology-in-R.pdf
+pDudley-et-al-2009.pdf
+pbakker-grunwald-et-al-1995.pdf
+pBakker-Grunwald-et-al-1995.pdf
+pAL3_15_meta-blastRotiferaGenomes_IQTree.nwk
+pAL3_15_meta-blastRotiferaGenomes_ML.nwk
+pAL3_15_meta-blastRotiferaGenomes_Bayes.nwk
+pAL3_15_meta-blastRotiferaGenomes_ML_TIM2.nwk
+pAL3_15_meta-blastRotiferaGenomes_ML_GTR.nwk
+pAL3_15_meta-blastRotiferaGenomes_Bayes_GTR.nwk
+pAL3_15_meta-blastRotiferaGenomes.full_ML
+pAL3_15_meta-blastRotiferaGenomes.full.fasta.contree
+pAL3_15_meta-blastAdinetaGenomes.full_ML_TIM2.nwk
+pSupplementary File S7.pdf
+pSupplementary File S6.pdf
+pSupplementary File S8.nxs
+pSupplementary File S10.nxs
+pSupplementary File S9.nxs
+pSupplementary File S8.fasta
+pSupplementary File S6.fasta
+pCopy of s7-2 (1).webm
+pFreezing-experiments-analysis.R
+pDate-calibration.R
+pAdineta-phylogeny.nxs
+pPrimers-Actin.fasta
+pSupplementary File S7.fasta
+pQuality-correction-alignment.fasta
+pActin-alignment-with-Sanger.fasta
+pActin-trees-with-Sanger.nxs
+pActin-alignment-without-Sanger.fasta
+pActin-tree-without-Sanger.nxs
+pSupplementary File S12 1x.mp4
+pSupplementary File S12 8x.mp4
+pM2-ASM74607.fna
+pASM74607-bowtie.sam
+pCommands
+pLogbook
+pKango_catalogue_ru.pdf
+pMethaBac-code
+pAlign-250-to-NCBI-assembly.sh
+pMarc-align-250-to-NCBI-assembly.sh
+pMvet-align-250-to-NCBI-assembly.sh
+ptrim-and-align-250-to-NCBI-assembly.sh
+ptrim-and-align-250-to-NCBI-assembly.txt
+ptrim-and-align.sh
+ptrim-and-align.txt
+padapters.fa
+plast-bt2-map-pair-unconc.1.bam
+plast-bt2-map-pair-unconc.2.bam
+plast-bt2-map-unpair-unalign.bam
+pMalavin-et-al-CB-Cover-letter.docx
+pNatural_Earth_quick_start
+pFigure1-Freezing.png
+pS3-seq.csv
+pFreezing-survival-data.csv
+pFigure1-Freezing-new.png
+pSupplemental_Info_correspondence.docx
+pCURRENT-BIOLOGY-S-20-02817.pdf
+pcitilink_no_disks.xls
+pcitilink_with_disks.xls
+plkdjfla.fst
+pseqdump.fastasfsdf
+pMvet_09.fasta
+pIGV
+ptest
+pJQJK01.1.id_JQJK01000002.1.7.fsa_nt
+pbkp
+piter01
+pget_reads.sh
+pcdhit
+pcdhit-master
+pJQJK01000005.1~.iter01.fasta
+pJQJK01000005.1.1_25000.fasta
+pJQJK01000005.1~.result.fasta
+pcontig05.clust
+pJQJK01000002.1.fasta_neededends.fa
+pcons
+piter02_1
+piter02_full
+pJQJK01.it01.full.fa.fai
+pJQJK01.it01.full.fa
+pgithub-recovery-codes.txt
+p00000
+pEMBOSS
+pEMBOSS-6.6.0
+pJQJK01.it01.trim.fa
+p120224
+pCURRENT-BIOLOGY-D-20-02285-Main-text-rev1.docx
+p5-02-2021.xlsx
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/home/stas/.local/share/vifm/Trash/000_mmc
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/stas/.local/share/vifm/Trash/000_.000777.swp
+	/home/stas/Documents/_TMP/tmp/.000777.swp
+t/home/stas/.local/share/vifm/Trash/000_dwca-ancientpermafrostamoeboidprotists-v1.1.zip
+	/home/stas/Downloads/dwca-ancientpermafrostamoeboidprotists-v1.1.zip
+t/home/stas/.local/share/vifm/Trash/000_eml.xml
+	/home/stas/Downloads/eml.xml
+t/home/stas/.local/share/vifm/Trash/000_meta.xml
+	/home/stas/Downloads/meta.xml
+t/home/stas/.local/share/vifm/Trash/000_Сл-зап-морозилка.docx
+	/home/stas/Documents/DOC/ИФХиБПП/Сл-зап-морозилка.docx
+t/home/stas/.local/share/vifm/Trash/000_Сл-зап.docx
+	/home/stas/Documents/DOC/ИФХиБПП/Сл-зап.docx
+t/home/stas/.local/share/vifm/Trash/000_50-41
+	/home/stas/Downloads/Geltser-PhD/50-41
+t/home/stas/.local/share/vifm/Trash/000_50-42
+	/home/stas/Downloads/Geltser-PhD/50-42
+t/home/stas/.local/share/vifm/Trash/000_50-43
+	/home/stas/Downloads/Geltser-PhD/50-43
+t/home/stas/.local/share/vifm/Trash/000_50-44
+	/home/stas/Downloads/Geltser-PhD/50-44
+t/home/stas/.local/share/vifm/Trash/000_50-45
+	/home/stas/Downloads/Geltser-PhD/50-45
+t/home/stas/.local/share/vifm/Trash/000_50-46
+	/home/stas/Downloads/Geltser-PhD/50-46
+t/home/stas/.local/share/vifm/Trash/000_50-47
+	/home/stas/Downloads/Geltser-PhD/50-47
+t/home/stas/.local/share/vifm/Trash/000_50-48
+	/home/stas/Downloads/Geltser-PhD/50-48
+t/home/stas/.local/share/vifm/Trash/000_50-32
+	/home/stas/Downloads/Geltser-PhD/50-32
+t/home/stas/.local/share/vifm/Trash/000_50-33
+	/home/stas/Downloads/Geltser-PhD/50-33
+t/home/stas/.local/share/vifm/Trash/000_50-34
+	/home/stas/Downloads/Geltser-PhD/50-34
+t/home/stas/.local/share/vifm/Trash/000_50-35
+	/home/stas/Downloads/Geltser-PhD/50-35
+t/home/stas/.local/share/vifm/Trash/000_50-36
+	/home/stas/Downloads/Geltser-PhD/50-36
+t/home/stas/.local/share/vifm/Trash/000_50-37
+	/home/stas/Downloads/Geltser-PhD/50-37
+t/home/stas/.local/share/vifm/Trash/000_50-38
+	/home/stas/Downloads/Geltser-PhD/50-38
+t/home/stas/.local/share/vifm/Trash/000_50-39
+	/home/stas/Downloads/Geltser-PhD/50-39
+t/home/stas/.local/share/vifm/Trash/000_50-40
+	/home/stas/Downloads/Geltser-PhD/50-40
+t/home/stas/.local/share/vifm/Trash/000_50-22
+	/home/stas/Downloads/Geltser-PhD/50-22
+t/home/stas/.local/share/vifm/Trash/000_50-23
+	/home/stas/Downloads/Geltser-PhD/50-23
+t/home/stas/.local/share/vifm/Trash/000_50-24
+	/home/stas/Downloads/Geltser-PhD/50-24
+t/home/stas/.local/share/vifm/Trash/000_50-25
+	/home/stas/Downloads/Geltser-PhD/50-25
+t/home/stas/.local/share/vifm/Trash/000_50-26
+	/home/stas/Downloads/Geltser-PhD/50-26
+t/home/stas/.local/share/vifm/Trash/000_50-27
+	/home/stas/Downloads/Geltser-PhD/50-27
+t/home/stas/.local/share/vifm/Trash/000_50-28
+	/home/stas/Downloads/Geltser-PhD/50-28
+t/home/stas/.local/share/vifm/Trash/000_50-29
+	/home/stas/Downloads/Geltser-PhD/50-29
+t/home/stas/.local/share/vifm/Trash/000_50-30
+	/home/stas/Downloads/Geltser-PhD/50-30
+t/home/stas/.local/share/vifm/Trash/000_50-31
+	/home/stas/Downloads/Geltser-PhD/50-31
+t/home/stas/.local/share/vifm/Trash/000_50-12
+	/home/stas/Downloads/Geltser-PhD/50-12
+t/home/stas/.local/share/vifm/Trash/000_50-13
+	/home/stas/Downloads/Geltser-PhD/50-13
+t/home/stas/.local/share/vifm/Trash/000_50-14
+	/home/stas/Downloads/Geltser-PhD/50-14
+t/home/stas/.local/share/vifm/Trash/000_50-15
+	/home/stas/Downloads/Geltser-PhD/50-15
+t/home/stas/.local/share/vifm/Trash/000_50-16
+	/home/stas/Downloads/Geltser-PhD/50-16
+t/home/stas/.local/share/vifm/Trash/000_50-17
+	/home/stas/Downloads/Geltser-PhD/50-17
+t/home/stas/.local/share/vifm/Trash/000_50-18
+	/home/stas/Downloads/Geltser-PhD/50-18
+t/home/stas/.local/share/vifm/Trash/000_50-19
+	/home/stas/Downloads/Geltser-PhD/50-19
+t/home/stas/.local/share/vifm/Trash/000_50-20
+	/home/stas/Downloads/Geltser-PhD/50-20
+t/home/stas/.local/share/vifm/Trash/000_50-21
+	/home/stas/Downloads/Geltser-PhD/50-21
+t/home/stas/.local/share/vifm/Trash/000_50-2
+	/home/stas/Downloads/Geltser-PhD/50-2
+t/home/stas/.local/share/vifm/Trash/000_50-3
+	/home/stas/Downloads/Geltser-PhD/50-3
+t/home/stas/.local/share/vifm/Trash/000_50-4
+	/home/stas/Downloads/Geltser-PhD/50-4
+t/home/stas/.local/share/vifm/Trash/000_50-5
+	/home/stas/Downloads/Geltser-PhD/50-5
+t/home/stas/.local/share/vifm/Trash/000_50-6
+	/home/stas/Downloads/Geltser-PhD/50-6
+t/home/stas/.local/share/vifm/Trash/000_50-7
+	/home/stas/Downloads/Geltser-PhD/50-7
+t/home/stas/.local/share/vifm/Trash/000_50-8
+	/home/stas/Downloads/Geltser-PhD/50-8
+t/home/stas/.local/share/vifm/Trash/000_50-9
+	/home/stas/Downloads/Geltser-PhD/50-9
+t/home/stas/.local/share/vifm/Trash/000_50-10
+	/home/stas/Downloads/Geltser-PhD/50-10
+t/home/stas/.local/share/vifm/Trash/000_50-11
+	/home/stas/Downloads/Geltser-PhD/50-11
+t/home/stas/.local/share/vifm/Trash/000_50-0
+	/home/stas/Downloads/Geltser-PhD/50-0
+t/home/stas/.local/share/vifm/Trash/000_50-1
+	/home/stas/Downloads/Geltser-PhD/50-1
+t/home/stas/.local/share/vifm/Trash/000_Geltser-PhD.pdf
+	/home/stas/Downloads/Geltser-PhD/Geltser-PhD.pdf
+t/home/stas/.local/share/vifm/Trash/000_01
+	/home/stas/Downloads/Geltser-PhD/01
+t/home/stas/.local/share/vifm/Trash/000_02
+	/home/stas/Downloads/Geltser-PhD/02
+t/home/stas/.local/share/vifm/Trash/000_03
+	/home/stas/Downloads/Geltser-PhD/03
+t/home/stas/.local/share/vifm/Trash/000_04
+	/home/stas/Downloads/Geltser-PhD/04
+t/home/stas/.local/share/vifm/Trash/000_05
+	/home/stas/Downloads/Geltser-PhD/05
+t/home/stas/.local/share/vifm/Trash/000_06
+	/home/stas/Downloads/Geltser-PhD/06
+t/home/stas/.local/share/vifm/Trash/000_07
+	/home/stas/Downloads/Geltser-PhD/07
+t/home/stas/.local/share/vifm/Trash/000_08
+	/home/stas/Downloads/Geltser-PhD/08
+t/home/stas/.local/share/vifm/Trash/000_09
+	/home/stas/Downloads/Geltser-PhD/09
+t/home/stas/.local/share/vifm/Trash/000_49
+	/home/stas/Downloads/Geltser-PhD/49
+t/home/stas/.local/share/vifm/Trash/000_50
+	/home/stas/Downloads/Geltser-PhD/50
+t/home/stas/.local/share/vifm/Trash/000_47
+	/home/stas/Downloads/Geltser-PhD/47
+t/home/stas/.local/share/vifm/Trash/000_48
+	/home/stas/Downloads/Geltser-PhD/48
+t/home/stas/.local/share/vifm/Trash/000_46
+	/home/stas/Downloads/Geltser-PhD/46
+t/home/stas/.local/share/vifm/Trash/000_44
+	/home/stas/Downloads/Geltser-PhD/44
+t/home/stas/.local/share/vifm/Trash/000_45
+	/home/stas/Downloads/Geltser-PhD/45
+t/home/stas/.local/share/vifm/Trash/000_42
+	/home/stas/Downloads/Geltser-PhD/42
+t/home/stas/.local/share/vifm/Trash/000_43
+	/home/stas/Downloads/Geltser-PhD/43
+t/home/stas/.local/share/vifm/Trash/000_41
+	/home/stas/Downloads/Geltser-PhD/41
+t/home/stas/.local/share/vifm/Trash/000_39
+	/home/stas/Downloads/Geltser-PhD/39
+t/home/stas/.local/share/vifm/Trash/000_40
+	/home/stas/Downloads/Geltser-PhD/40
+t/home/stas/.local/share/vifm/Trash/000_37
+	/home/stas/Downloads/Geltser-PhD/37
+t/home/stas/.local/share/vifm/Trash/000_38
+	/home/stas/Downloads/Geltser-PhD/38
+t/home/stas/.local/share/vifm/Trash/000_36
+	/home/stas/Downloads/Geltser-PhD/36
+t/home/stas/.local/share/vifm/Trash/000_34
+	/home/stas/Downloads/Geltser-PhD/34
+t/home/stas/.local/share/vifm/Trash/000_35
+	/home/stas/Downloads/Geltser-PhD/35
+t/home/stas/.local/share/vifm/Trash/000_32
+	/home/stas/Downloads/Geltser-PhD/32
+t/home/stas/.local/share/vifm/Trash/000_33
+	/home/stas/Downloads/Geltser-PhD/33
+t/home/stas/.local/share/vifm/Trash/000_30
+	/home/stas/Downloads/Geltser-PhD/30
+t/home/stas/.local/share/vifm/Trash/000_31
+	/home/stas/Downloads/Geltser-PhD/31
+t/home/stas/.local/share/vifm/Trash/000_29
+	/home/stas/Downloads/Geltser-PhD/29
+t/home/stas/.local/share/vifm/Trash/000_27
+	/home/stas/Downloads/Geltser-PhD/27
+t/home/stas/.local/share/vifm/Trash/000_28
+	/home/stas/Downloads/Geltser-PhD/28
+t/home/stas/.local/share/vifm/Trash/000_25
+	/home/stas/Downloads/Geltser-PhD/25
+t/home/stas/.local/share/vifm/Trash/000_26
+	/home/stas/Downloads/Geltser-PhD/26
+t/home/stas/.local/share/vifm/Trash/000_24
+	/home/stas/Downloads/Geltser-PhD/24
+t/home/stas/.local/share/vifm/Trash/000_22
+	/home/stas/Downloads/Geltser-PhD/22
+t/home/stas/.local/share/vifm/Trash/000_23
+	/home/stas/Downloads/Geltser-PhD/23
+t/home/stas/.local/share/vifm/Trash/000_21
+	/home/stas/Downloads/Geltser-PhD/21
+t/home/stas/.local/share/vifm/Trash/000_19
+	/home/stas/Downloads/Geltser-PhD/19
+t/home/stas/.local/share/vifm/Trash/000_20
+	/home/stas/Downloads/Geltser-PhD/20
+t/home/stas/.local/share/vifm/Trash/000_17
+	/home/stas/Downloads/Geltser-PhD/17
+t/home/stas/.local/share/vifm/Trash/000_18
+	/home/stas/Downloads/Geltser-PhD/18
+t/home/stas/.local/share/vifm/Trash/000_15
+	/home/stas/Downloads/Geltser-PhD/15
+t/home/stas/.local/share/vifm/Trash/000_16
+	/home/stas/Downloads/Geltser-PhD/16
+t/home/stas/.local/share/vifm/Trash/000_14
+	/home/stas/Downloads/Geltser-PhD/14
+t/home/stas/.local/share/vifm/Trash/000_12
+	/home/stas/Downloads/Geltser-PhD/12
+t/home/stas/.local/share/vifm/Trash/000_13
+	/home/stas/Downloads/Geltser-PhD/13
+t/home/stas/.local/share/vifm/Trash/000_10
+	/home/stas/Downloads/Geltser-PhD/10
+t/home/stas/.local/share/vifm/Trash/000_11
+	/home/stas/Downloads/Geltser-PhD/11
+t/home/stas/.local/share/vifm/Trash/000_Geltser-PhD
+	/home/stas/Downloads/Geltser-PhD
+t/home/stas/.local/share/vifm/Trash/000_Коммерческое предложение клиенту с логотипом № УТ-704 от 20.02.2020 (2).docx
+	/home/stas/Downloads/Коммерческое предложение клиенту с логотипом № УТ-704 от 20.02.2020 (2).docx
+t/home/stas/.local/share/vifm/Trash/000_SD_DY_25_3_1280.JPG
+	/home/stas/Downloads/SD_DY_25_3_1280.JPG
+t/home/stas/.local/share/vifm/Trash/000_Коммерческое предложение клиенту с логотипом № УТ-704 от 20.02.2020.docx
+	/home/stas/Downloads/Коммерческое предложение клиенту с логотипом № УТ-704 от 20.02.2020.docx
+t/home/stas/.local/share/vifm/Trash/000_algae
+	/home/stas/Downloads/algae
+t/home/stas/.local/share/vifm/Trash/000_okpd2.rar
+	/home/stas/Downloads/okpd2.rar
+t/home/stas/.local/share/vifm/Trash/000_OKVED2.rar
+	/home/stas/Downloads/OKVED2.rar
+t/home/stas/.local/share/vifm/Trash/000_missfont.log
+	/home/stas/Downloads/missfont.log
+t/home/stas/.local/share/vifm/Trash/000_test.pdf
+	/home/stas/Downloads/test.pdf
+t/home/stas/.local/share/vifm/Trash/000_filled
+	/home/stas/Documents/Ames-thr/DOC/filled
+t/home/stas/.local/share/vifm/Trash/000_2009
+	/home/stas/Documents/БИБЛИОТЕКА/STAT/Textbooks-General-Statistics/2009
+t/home/stas/.local/share/vifm/Trash/000_and
+	/home/stas/Documents/БИБЛИОТЕКА/STAT/Textbooks-General-Statistics/and
+t/home/stas/.local/share/vifm/Trash/000_ea
+	/home/stas/Documents/БИБЛИОТЕКА/STAT/Textbooks-General-Statistics/ea
+t/home/stas/.local/share/vifm/Trash/000_Ecology
+	/home/stas/Documents/БИБЛИОТЕКА/STAT/Textbooks-General-Statistics/Ecology
+t/home/stas/.local/share/vifm/Trash/000_Effects
+	/home/stas/Documents/БИБЛИОТЕКА/STAT/Textbooks-General-Statistics/Effects
+t/home/stas/.local/share/vifm/Trash/000_Extensions
+	/home/stas/Documents/БИБЛИОТЕКА/STAT/Textbooks-General-Statistics/Extensions
+t/home/stas/.local/share/vifm/Trash/000_in
+	/home/stas/Documents/БИБЛИОТЕКА/STAT/Textbooks-General-Statistics/in
+t/home/stas/.local/share/vifm/Trash/000_Mixed
+	/home/stas/Documents/БИБЛИОТЕКА/STAT/Textbooks-General-Statistics/Mixed
+t/home/stas/.local/share/vifm/Trash/000_Models
+	/home/stas/Documents/БИБЛИОТЕКА/STAT/Textbooks-General-Statistics/Models
+t/home/stas/.local/share/vifm/Trash/000_with
+	/home/stas/Documents/БИБЛИОТЕКА/STAT/Textbooks-General-Statistics/with
+t/home/stas/.local/share/vifm/Trash/000_Rproj
+	/home/stas/Documents/БИБЛИОТЕКА/STAT/Textbooks-General-Statistics/Zuur ea 2009 Mixed Effects Models and Extensions in Ecology with R/Rproj
+t/home/stas/.local/share/vifm/Trash/000_Ames-hist.ods
+	/home/stas/Documents/Ames-thr/HISTORY/Ames-hist.ods
+t/home/stas/.local/share/vifm/Trash/000_Ames-hist.tsv.csv
+	/home/stas/Documents/Ames-thr/HISTORY/Ames-hist.tsv.csv
+t/home/stas/.local/share/vifm/Trash/000_Ames-hist.tsv.ods
+	/home/stas/Documents/Ames-thr/HISTORY/Ames-hist.tsv.ods
+t/home/stas/.local/share/vifm/Trash/000_hst.tsv
+	/home/stas/Documents/Ames-thr/HISTORY/hst.tsv
+t/home/stas/.local/share/vifm/Trash/000_hst(1).tsv
+	/home/stas/Documents/Ames-thr/HISTORY/hst(1).tsv
+t/home/stas/.local/share/vifm/Trash/000_TA-98.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-98.jpeg
+t/home/stas/.local/share/vifm/Trash/000_--file=TA-100.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/--file=TA-100.jpeg
+t/home/stas/.local/share/vifm/Trash/000_Control-chart-TS-100.pdf
+	/home/stas/Documents/Ames-thr/HISTORY/Control-chart-TS-100.pdf
+t/home/stas/.local/share/vifm/Trash/000_TA-100.png
+	/home/stas/Documents/Ames-thr/HISTORY/TA-100.png
+t/home/stas/.local/share/vifm/Trash/000_TA-100.pdf
+	/home/stas/Documents/Ames-thr/HISTORY/TA-100.pdf
+t/home/stas/.local/share/vifm/Trash/000_TA-97.pdf
+	/home/stas/Documents/Ames-thr/HISTORY/TA-97.pdf
+t/home/stas/.local/share/vifm/Trash/000_TA-98._MA.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-98._MA.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-97.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-97.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-100.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-100.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-102.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-102.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-1535.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-1535.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-100.notMA.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-100.notMA.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-100.MA.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-100.MA.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-1535.MA.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-1535.MA.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-1535.notMA.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-1535.notMA.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-102.notMA.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-102.notMA.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-102.MA.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-102.MA.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-97.MA.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-97.MA.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-97.notMA.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-97.notMA.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-98.notMA.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-98.notMA.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-98.MA.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-98.MA.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-97.NA.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-97.NA.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-98.S9-(1).jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-98.S9-(1).jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-98.S9+(1).jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-98.S9+(1).jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-97.S9+.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-97.S9+.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-97.S9-.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-97.S9-.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-1535.S9+.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-1535.S9+.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-1535.S9-.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-1535.S9-.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-102.S9+.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-102.S9+.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-102.S9-.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-102.S9-.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-100.S9+.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-100.S9+.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-100.S9-.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-100.S9-.jpeg
+t/home/stas/.local/share/vifm/Trash/000_01.R
+	/home/stas/Documents/Ames-thr/HISTORY/R/01.R
+t/home/stas/.local/share/vifm/Trash/000_00.R
+	/home/stas/Documents/Ames-thr/HISTORY/R/00.R
+t/home/stas/.local/share/vifm/Trash/000_Analysis.html
+	/home/stas/Documents/Ames-thr/HISTORY/R/Analysis.html
+t/home/stas/.local/share/vifm/Trash/000_Analysis.nb.html
+	/home/stas/Documents/Ames-thr/HISTORY/R/Analysis.nb.html
+t/home/stas/.local/share/vifm/Trash/000_TA-98.S9-.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-98.S9-.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-98.S9+.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-98.S9+.jpeg
+t/home/stas/.local/share/vifm/Trash/000_Analysis.docx
+	/home/stas/Documents/Ames-thr/HISTORY/R/Analysis.docx
+t/home/stas/.local/share/vifm/Trash/000_Analysis.Rmd
+	/home/stas/Documents/Ames-thr/HISTORY/R/Analysis.Rmd
+t/home/stas/.local/share/vifm/Trash/000_ncbi-genomes-2020-04-08
+	/home/stas/Downloads/ncbi-genomes-2020-04-08
+t/home/stas/.local/share/vifm/Trash/000_report.txt
+	/home/stas/Downloads/report.txt
+t/home/stas/.local/share/vifm/Trash/000_genome_assemblies_genome_fasta.tar
+	/home/stas/Downloads/genome_assemblies_genome_fasta.tar
+t/home/stas/.local/share/vifm/Trash/000_--very-sensitive.1
+	/home/stas/Documents/BIOINFO/METAGENOMES/_AL3-15/--very-sensitive.1
+t/home/stas/.local/share/vifm/Trash/000_--very-sensitive.2
+	/home/stas/Documents/BIOINFO/METAGENOMES/_AL3-15/--very-sensitive.2
+t/home/stas/.local/share/vifm/Trash/000_bam2wig.c
+	/home/stas/Downloads/Augustus/bam2wig/bam2wig.c
+t/home/stas/.local/share/vifm/Trash/000_bam2wig
+	/home/stas/Downloads/Augustus/bam2wig
+t/home/stas/.local/share/vifm/Trash/000_Makefile
+	/home/stas/Downloads/Makefile
+t/home/stas/.local/share/vifm/Trash/001_bam2wig.c
+	/home/stas/Downloads/bam2wig.c
+t/home/stas/.local/share/vifm/Trash/000_P4100015_cr.exv
+	/home/stas/Downloads/P4100015_cr.exv
+t/home/stas/.local/share/vifm/Trash/000_paleo.txt
+	/home/stas/Downloads/paleo.txt
+t/home/stas/.local/share/vifm/Trash/000_occurrence.csv
+	/home/stas/Downloads/occurrence.csv
+t/home/stas/.local/share/vifm/Trash/000_event.txt
+	/home/stas/Downloads/event.txt
+t/home/stas/.local/share/vifm/Trash/000_extendedmeasurementorfact.txt
+	/home/stas/Downloads/extendedmeasurementorfact.txt
+t/home/stas/.local/share/vifm/Trash/000_occurrence.txt
+	/home/stas/Downloads/occurrence.txt
+t/home/stas/.local/share/vifm/Trash/000_dwca-microeuk-prmf-metagen-v1.0.zip
+	/home/stas/Downloads/dwca-microeuk-prmf-metagen-v1.0.zip
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-103106.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-103106.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-110518.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-110518.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-110632.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-110632.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-110646.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-110646.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-110720.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-110720.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-110725.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-110725.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-110737.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-110737.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-110752.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-110752.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-160042.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-160042.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-160318.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-160318.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-160441.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-160441.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-160556.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-160556.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-160923.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-160923.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-163529.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-163529.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-163556.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-163556.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-164400.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-164400.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-164415.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-164415.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-170338.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-170338.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-170356.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-170356.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-170433.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-170433.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-170448.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-170448.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-170805.jpg
+	/home/stas/Pictures/218-pic/2017-06-21-170805.jpg
+t/home/stas/.local/share/vifm/Trash/000_2017-06-21-170825 (1).jpg
+	/home/stas/Pictures/218-pic/2017-06-21-170825 (1).jpg
+t/home/stas/.local/share/vifm/Trash/000_Webcam-2017-06-21.zip
+	/home/stas/Pictures/218-pic/Webcam-2017-06-21.zip
+t/home/stas/.local/share/vifm/Trash/000_Webcam-2017-06-20.zip
+	/home/stas/Pictures/218-pic/Webcam-2017-06-20.zip
+t/home/stas/.local/share/vifm/Trash/000_Webcam.zip
+	/home/stas/Pictures/218-pic/Webcam (another copy)/Webcam.zip
+t/home/stas/.local/share/vifm/Trash/000_НЦМУ_2020_ЛКК_СМ_ЛШ_планирование.docx
+	/home/stas/Downloads/НЦМУ_2020_ЛКК_СМ_ЛШ_планирование.docx
+t/home/stas/.local/share/vifm/Trash/000_Voigt2000-seq-for-prim.fasta
+	/home/stas/Downloads/Voigt2000-seq-for-prim.fasta
+t/home/stas/.local/share/vifm/Trash/000_Voigt2000-no-intr.fasta.log
+	/home/stas/Downloads/Voigt2000-no-intr.fasta.log
+t/home/stas/.local/share/vifm/Trash/000_Voigt2000-no-intr.fasta.treefile
+	/home/stas/Downloads/Voigt2000-no-intr.fasta.treefile
+t/home/stas/.local/share/vifm/Trash/000_Voigt2000-no-intr.fasta.ckp.gz
+	/home/stas/Downloads/Voigt2000-no-intr.fasta.ckp.gz
+t/home/stas/.local/share/vifm/Trash/000_Voigt2000-no-intr.fasta.bionj
+	/home/stas/Downloads/Voigt2000-no-intr.fasta.bionj
+t/home/stas/.local/share/vifm/Trash/000_Voigt2000-no-intr.fasta.mldist
+	/home/stas/Downloads/Voigt2000-no-intr.fasta.mldist
+t/home/stas/.local/share/vifm/Trash/000_Voigt2000-no-intr.fasta.model.gz
+	/home/stas/Downloads/Voigt2000-no-intr.fasta.model.gz
+t/home/stas/.local/share/vifm/Trash/000_Voigt2000-no-intr-trim.fst.ckp.gz
+	/home/stas/Downloads/Voigt2000-no-intr-trim.fst.ckp.gz
+t/home/stas/.local/share/vifm/Trash/000_Voigt2000-no-intr-trim.fst.contree
+	/home/stas/Downloads/Voigt2000-no-intr-trim.fst.contree
+t/home/stas/.local/share/vifm/Trash/000_Voigt2000-no-intr-trim.fst.iqtree
+	/home/stas/Downloads/Voigt2000-no-intr-trim.fst.iqtree
+t/home/stas/.local/share/vifm/Trash/000_Voigt2000-no-intr-trim.fst.log
+	/home/stas/Downloads/Voigt2000-no-intr-trim.fst.log
+t/home/stas/.local/share/vifm/Trash/000_Voigt2000-no-intr-trim.fst.splits.nex
+	/home/stas/Downloads/Voigt2000-no-intr-trim.fst.splits.nex
+t/home/stas/.local/share/vifm/Trash/000_Voigt2000-no-intr-trim.fst.treefile
+	/home/stas/Downloads/Voigt2000-no-intr-trim.fst.treefile
+t/home/stas/.local/share/vifm/Trash/000_Voigt2000-no-intr-trim.fst.bionj
+	/home/stas/Downloads/Voigt2000-no-intr-trim.fst.bionj
+t/home/stas/.local/share/vifm/Trash/000_Voigt2000-no-intr-trim.fst.mldist
+	/home/stas/Downloads/Voigt2000-no-intr-trim.fst.mldist
+t/home/stas/.local/share/vifm/Trash/000_Voigt2000-no-intr-trim.fst.model.gz
+	/home/stas/Downloads/Voigt2000-no-intr-trim.fst.model.gz
+t/home/stas/.local/share/vifm/Trash/000_AJ549224.1
+	/home/stas/Downloads/AJ549224.1
+t/home/stas/.local/share/vifm/Trash/000_CAD70272.fasta
+	/home/stas/Downloads/CAD70272.fasta
+t/home/stas/.local/share/vifm/Trash/000_Tadh-act.fasta
+	/home/stas/Downloads/Tadh-act.fasta
+t/home/stas/.local/share/vifm/Trash/000_Sequence.txt
+	/home/stas/Downloads/Sequence.txt
+t/home/stas/.local/share/vifm/Trash/000_sequence(2).txt
+	/home/stas/Downloads/sequence(2).txt
+t/home/stas/.local/share/vifm/Trash/000_sequence(1).txt
+	/home/stas/Downloads/sequence(1).txt
+t/home/stas/.local/share/vifm/Trash/000_sequence.txt
+	/home/stas/Downloads/sequence.txt
+t/home/stas/.local/share/vifm/Trash/000_Sbov_genome-act.fst
+	/home/stas/Downloads/Sbov_genome-act.fst
+t/home/stas/.local/share/vifm/Trash/000_libunibreak1_1.0-1_amd64(3).CTCGCAACTCGTTGTAGAATGTATGGTGCCATATCTTCTCCATATCATCCCAGTTAGTCACAATACCA
+	/home/stas/Downloads/libunibreak1_1.0-1_amd64(3).CTCGCAACTCGTTGTAGAATGTATGGTGCCATATCTTCTCCATATCATCCCAGTTAGTCACAATACCA
+t/home/stas/.local/share/vifm/Trash/000_Вкус. Наука о самом малоизученном человеческом чувстве(1).GCGTCATCTCCAGCGAAGCCAGCTTTGCACATACCAGATCCATTGTCAATAACAAGAGCAGCAACTTCT
+	/home/stas/Downloads/Вкус. Наука о самом малоизученном человеческом чувстве(1).GCGTCATCTCCAGCGAAGCCAGCTTTGCACATACCAGATCCATTGTCAATAACAAGAGCAGCAACTTCT
+t/home/stas/.local/share/vifm/Trash/000_Вкус. Наука о самом малоизученном человеческом чувстве(2).GCGTCATCTCCAGCGAAGCCAGCTTTGCACATACCAGATCCATTGTCAATAACAAGAGCAGCAACTTCT
+	/home/stas/Downloads/Вкус. Наука о самом малоизученном человеческом чувстве(2).GCGTCATCTCCAGCGAAGCCAGCTTTGCACATACCAGATCCATTGTCAATAACAAGAGCAGCAACTTCT
+t/home/stas/.local/share/vifm/Trash/000_Вкус. Наука о самом малоизученном человеческом чувстве(3).GCGTCATCTCCAGCGAAGCCAGCTTTGCACATACCAGATCCATTGTCAATAACAAGAGCAGCAACTTCT
+	/home/stas/Downloads/Вкус. Наука о самом малоизученном человеческом чувстве(3).GCGTCATCTCCAGCGAAGCCAGCTTTGCACATACCAGATCCATTGTCAATAACAAGAGCAGCAACTTCT
+t/home/stas/.local/share/vifm/Trash/000_Вкус. Наука о самом малоизученном человеческом чувстве.GCGTCATCTCCAGCGAAGCCAGCTTTGCACATACCAGATCCATTGTCAATAACAAGAGCAGCAACTTCT
+	/home/stas/Downloads/Вкус. Наука о самом малоизученном человеческом чувстве.GCGTCATCTCCAGCGAAGCCAGCTTTGCACATACCAGATCCATTGTCAATAACAAGAGCAGCAACTTCT
+t/home/stas/.local/share/vifm/Trash/000_fbreader_0.99.4-1_amd64(1).TATCTCGGACAATTTCACGTTCAGCAGTAGTAGTAAAACTGTAACCTCTCTCAGTCAGGATCTTCA
+	/home/stas/Downloads/fbreader_0.99.4-1_amd64(1).TATCTCGGACAATTTCACGTTCAGCAGTAGTAGTAAAACTGTAACCTCTCTCAGTCAGGATCTTCA
+t/home/stas/.local/share/vifm/Trash/000_fbreader_0.99.4-1_amd64(2).TATAGTCAGTAAGATCTCTACCAGCAAGATCCAAACGCAAAATGGCATGGGGCAATGCATAACCTTC
+	/home/stas/Downloads/fbreader_0.99.4-1_amd64(2).TATAGTCAGTAAGATCTCTACCAGCAAGATCCAAACGCAAAATGGCATGGGGCAATGCATAACCTTC
+t/home/stas/.local/share/vifm/Trash/000_fbreader_0.99.4-1_amd64.CATCTGAATCGTTCATTACCAATGGTGATAACTTGACCATCTGGAAGTTCGTAACTCTTCTC
+	/home/stas/Downloads/fbreader_0.99.4-1_amd64.CATCTGAATCGTTCATTACCAATGGTGATAACTTGACCATCTGGAAGTTCGTAACTCTTCTC
+t/home/stas/.local/share/vifm/Trash/000_libunibreak1_1.0-1_amd64(1).TCTTCTCACGATTCGCTTTCGGGTTCAATGGGGCTTCTGTCAACAACACTGGGTGTTCTTCTGGAGC
+	/home/stas/Downloads/libunibreak1_1.0-1_amd64(1).TCTTCTCACGATTCGCTTTCGGGTTCAATGGGGCTTCTGTCAACAACACTGGGTGTTCTTCTGGAGC
+t/home/stas/.local/share/vifm/Trash/000_libunibreak1_1.0-1_amd64(2).CTCGCAACTCGTTGTAGAATGTATGGTGCCATATCTTCTCCATATCATCCCAGTTAGTCACAATACCA
+	/home/stas/Downloads/libunibreak1_1.0-1_amd64(2).CTCGCAACTCGTTGTAGAATGTATGGTGCCATATCTTCTCCATATCATCCCAGTTAGTCACAATACCA
+t/home/stas/.local/share/vifm/Trash/000_libunibreak1_1.0-1_amd64.CAGTGACAACACCGCCTGAATAGCAACATACATAGCTGGAGCATTAAAAGTCTCAAACATGATCTGTG
+	/home/stas/Downloads/libunibreak1_1.0-1_amd64.CAGTGACAACACCGCCTGAATAGCAACATACATAGCTGGAGCATTAAAAGTCTCAAACATGATCTGTG
+t/home/stas/.local/share/vifm/Trash/000_Вкус. Наука о самом малоизученном человеческом чувстве(1).TGATAGAGTTGTAAGTGGTCTCATGAATACCGGCGGATTCCATCCCCAGGAAACTAGGTTGGAGAAGAG
+	/home/stas/Downloads/Вкус. Наука о самом малоизученном человеческом чувстве(1).TGATAGAGTTGTAAGTGGTCTCATGAATACCGGCGGATTCCATCCCCAGGAAACTAGGTTGGAGAAGAG
+t/home/stas/.local/share/vifm/Trash/000_Вкус. Наука о самом малоизученном человеческом чувстве(2).TGATAGAGTTGTAAGTGGTCTCATGAATACCGGCGGATTCCATCCCCAGGAAACTAGGTTGGAGAAGAG
+	/home/stas/Downloads/Вкус. Наука о самом малоизученном человеческом чувстве(2).TGATAGAGTTGTAAGTGGTCTCATGAATACCGGCGGATTCCATCCCCAGGAAACTAGGTTGGAGAAGAG
+t/home/stas/.local/share/vifm/Trash/000_Вкус. Наука о самом малоизученном человеческом чувстве(3).TGATAGAGTTGTAAGTGGTCTCATGAATACCGGCGGATTCCATCCCCAGGAAACTAGGTTGGAGAAGAG
+	/home/stas/Downloads/Вкус. Наука о самом малоизученном человеческом чувстве(3).TGATAGAGTTGTAAGTGGTCTCATGAATACCGGCGGATTCCATCCCCAGGAAACTAGGTTGGAGAAGAG
+t/home/stas/.local/share/vifm/Trash/000_Вкус. Наука о самом малоизученном человеческом чувстве.TAATGAAGCCAAAATAGAACCACCAATCCATACAGAGTACTTCCTCTCAGGTGGTGCAA
+	/home/stas/Downloads/Вкус. Наука о самом малоизученном человеческом чувстве.TAATGAAGCCAAAATAGAACCACCAATCCATACAGAGTACTTCCTCTCAGGTGGTGCAA
+t/home/stas/.local/share/vifm/Trash/000_newfile.mafft
+	/home/stas/Downloads/newfile.mafft
+t/home/stas/.local/share/vifm/Trash/000_newfile.fst
+	/home/stas/Downloads/newfile.fst
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta
+	/home/stas/Downloads/Metazoa-act.fasta
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.mafft
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.mafft
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.mafft.bionj
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.mafft.bionj
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.mafft.ckp.gz
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.mafft.ckp.gz
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.mafft.iqtree
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.mafft.iqtree
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.mafft.log
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.mafft.log
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.mafft.mldist
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.mafft.mldist
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.mafft.treefile
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.mafft.treefile
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.mafft.splits.nex
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.mafft.splits.nex
+t/home/stas/.local/share/vifm/Trash/001_Metazoa-act.fasta
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.bionj
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.bionj
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.ckp.gz
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.ckp.gz
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.iqtree
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.iqtree
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.log
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.log
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.mldist
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.mldist
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.model.gz
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.model.gz
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.splits.nex
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.splits.nex
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.treefile
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.treefile
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.GTR.contree
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.GTR.contree
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.TIM.contree
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.TIM.contree
+t/home/stas/.local/share/vifm/Trash/000_Avag1.fasta
+	/home/stas/Downloads/Avag1.fasta
+t/home/stas/.local/share/vifm/Trash/000_Avag2.fasta
+	/home/stas/Downloads/Avag2.fasta
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fasta.contree
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Metazoa-act.fasta.contree
+t/home/stas/.local/share/vifm/Trash/000_Actin-rotifera.fasta
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/Actin-rotifera.fasta
+t/home/stas/.local/share/vifm/Trash/000_Avag0.fasta
+	/home/stas/Downloads/Avag0.fasta
+t/home/stas/.local/share/vifm/Trash/000_PrimerDimerReport(1).txt
+	/home/stas/Downloads/PrimerDimerReport(1).txt
+t/home/stas/.local/share/vifm/Trash/000_PrimerDimerReport.txt
+	/home/stas/Downloads/PrimerDimerReport.txt
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fst.iqtree
+	/home/stas/Downloads/Metazoa-act.fst.iqtree
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fst.log
+	/home/stas/Downloads/Metazoa-act.fst.log
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fst.splits.nex
+	/home/stas/Downloads/Metazoa-act.fst.splits.nex
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fst.treefile
+	/home/stas/Downloads/Metazoa-act.fst.treefile
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fst.bionj
+	/home/stas/Downloads/Metazoa-act.fst.bionj
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fst.mldist
+	/home/stas/Downloads/Metazoa-act.fst.mldist
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fst.model.gz
+	/home/stas/Downloads/Metazoa-act.fst.model.gz
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fast.log
+	/home/stas/Downloads/Metazoa-act.fast.log
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fst.ckp.gz
+	/home/stas/Downloads/Metazoa-act.fst.ckp.gz
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fst.contree
+	/home/stas/Downloads/Metazoa-act.fst.contree
+t/home/stas/.local/share/vifm/Trash/000_newfile.fst.iqtree
+	/home/stas/Downloads/newfile.fst.iqtree
+t/home/stas/.local/share/vifm/Trash/000_newfile.fst.log
+	/home/stas/Downloads/newfile.fst.log
+t/home/stas/.local/share/vifm/Trash/000_newfile.fst.treefile
+	/home/stas/Downloads/newfile.fst.treefile
+t/home/stas/.local/share/vifm/Trash/000_newfile.fst.splits.nex
+	/home/stas/Downloads/newfile.fst.splits.nex
+t/home/stas/.local/share/vifm/Trash/000_newfile.fst.bionj
+	/home/stas/Downloads/newfile.fst.bionj
+t/home/stas/.local/share/vifm/Trash/000_newfile.fst.mldist
+	/home/stas/Downloads/newfile.fst.mldist
+t/home/stas/.local/share/vifm/Trash/000_newfile.fst.model.gz
+	/home/stas/Downloads/newfile.fst.model.gz
+t/home/stas/.local/share/vifm/Trash/000_newfile.fst.ckp.gz
+	/home/stas/Downloads/newfile.fst.ckp.gz
+t/home/stas/.local/share/vifm/Trash/000_Metazoa-act.fst
+	/home/stas/Downloads/Metazoa-act.fst
+t/home/stas/.local/share/vifm/Trash/000_cngr.d
+	/home/stas/Documents/Giftcards-R/HappyB/cngr.d
+t/home/stas/.local/share/vifm/Trash/000_HappyB.R
+	/home/stas/Documents/Giftcards-R/HappyB.R
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0001.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0001.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0002.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0002.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0003.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0003.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0004.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0004.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0005.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0005.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0006.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0006.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0007.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0007.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0008.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0008.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0009.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0009.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0010.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0010.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0011.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0011.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0012.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0012.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0013.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0013.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0014.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0014.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0015.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0015.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0016.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0016.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0017.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0017.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0018.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0018.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0019.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0019.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0020.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0020.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0021.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0021.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0022.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0022.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0023.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0023.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0024.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0024.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0025.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0025.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0026.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0026.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0027.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0027.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0028.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0028.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0029.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0029.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0030.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0030.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0031.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0031.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0032.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0032.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0033.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0033.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0034.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0034.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0035.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0035.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0036.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0036.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0037.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0037.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0038.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0038.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0039.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0039.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0040.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0040.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0041.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0041.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0042.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0042.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0043.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0043.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0044.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0044.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0045.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0045.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0046.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0046.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0047.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0047.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0048.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0048.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0049.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0049.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0050.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0050.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0051.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0051.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0052.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0052.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0053.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0053.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0054.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0054.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0055.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0055.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0056.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0056.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0057.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0057.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0058.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0058.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0059.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0059.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0060.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0060.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0061.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0061.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0062.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0062.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0063.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0063.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0064.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0064.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0065.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0065.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0066.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0066.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0067.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0067.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0068.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0068.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0069.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0069.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0070.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0070.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0071.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0071.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0072.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0072.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0073.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0073.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0074.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0074.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0075.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0075.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0076.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0076.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0077.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0077.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0078.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0078.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0079.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0079.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0080.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0080.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0081.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0081.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0082.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0082.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0083.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0083.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0084.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0084.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0085.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0085.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0086.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0086.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0087.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0087.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0088.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0088.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0089.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0089.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0090.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0090.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0091.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0091.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0092.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0092.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0093.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0093.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0094.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0094.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0095.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0095.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0096.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0096.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0097.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0097.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0098.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0098.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0099.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0099.png
+t/home/stas/.local/share/vifm/Trash/000_gganim_plot0100.png
+	/tmp/RtmpHoYD4u/17ef5790104/gganim_plot0100.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0001.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0001.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0002.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0002.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0003.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0003.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0004.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0004.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0005.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0005.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0006.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0006.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0007.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0007.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0008.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0008.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0009.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0009.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0010.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0010.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0011.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0011.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0012.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0012.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0013.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0013.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0014.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0014.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0015.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0015.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0016.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0016.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0017.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0017.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0018.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0018.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0019.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0019.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0020.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0020.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0021.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0021.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0022.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0022.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0023.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0023.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0024.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0024.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0025.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0025.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0026.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0026.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0027.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0027.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0028.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0028.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0029.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0029.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0030.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0030.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0031.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0031.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0032.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0032.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0033.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0033.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0034.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0034.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0035.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0035.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0036.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0036.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0037.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0037.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0038.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0038.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0039.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0039.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0040.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0040.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0041.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0041.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0042.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0042.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0043.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0043.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0044.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0044.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0045.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0045.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0046.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0046.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0047.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0047.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0048.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0048.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0049.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0049.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0050.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0050.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0051.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0051.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0052.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0052.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0053.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0053.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0054.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0054.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0055.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0055.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0056.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0056.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0057.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0057.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0058.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0058.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0059.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0059.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0060.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0060.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0061.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0061.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0062.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0062.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0063.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0063.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0064.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0064.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0065.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0065.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0066.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0066.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0067.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0067.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0068.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0068.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0069.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0069.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0070.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0070.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0071.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0071.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0072.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0072.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0073.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0073.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0074.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0074.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0075.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0075.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0076.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0076.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0077.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0077.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0078.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0078.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0079.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0079.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0080.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0080.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0081.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0081.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0082.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0082.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0083.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0083.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0084.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0084.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0085.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0085.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0086.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0086.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0087.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0087.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0088.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0088.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0089.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0089.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0090.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0090.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0091.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0091.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0092.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0092.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0093.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0093.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0094.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0094.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0095.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0095.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0096.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0096.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0097.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0097.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0098.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0098.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0099.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0099.png
+t/home/stas/.local/share/vifm/Trash/001_gganim_plot0100.png
+	/home/stas/Documents/Giftcards-R/gganim_plot0100.png
+t/home/stas/.local/share/vifm/Trash/000_giftcard.gif
+	/home/stas/Documents/Giftcards-R/giftcard.gif
+t/home/stas/.local/share/vifm/Trash/000_Adineta_freezing1.csv
+	/home/stas/Documents/SPECIES/Adineta/SUBM/CB/Adineta_freezing1.csv
+t/home/stas/.local/share/vifm/Trash/000_Adineta_freezing_vaga.csv
+	/home/stas/Documents/SPECIES/Adineta/SUBM/CB/Adineta_freezing_vaga.csv
+t/home/stas/.local/share/vifm/Trash/000_Adineta_permafrost2.csv
+	/home/stas/Documents/SPECIES/Adineta/SUBM/CB/Adineta_permafrost2.csv
+t/home/stas/.local/share/vifm/Trash/000_Adineta_permafrost1.csv
+	/home/stas/Documents/SPECIES/Adineta/SUBM/CB/Adineta_permafrost1.csv
+t/home/stas/.local/share/vifm/Trash/000_Adineta_permafrost.csv
+	/home/stas/Documents/SPECIES/Adineta/SUBM/CB/Adineta_permafrost.csv
+t/home/stas/.local/share/vifm/Trash/000_Freezing_perm_SM.R
+	/home/stas/Documents/SPECIES/Adineta/SUBM/CB/Freezing_perm_SM.R
+t/home/stas/.local/share/vifm/Trash/000_Freezing_boxplot.png
+	/home/stas/Documents/SPECIES/Adineta/SUBM/CB/Freezing_boxplot.png
+t/home/stas/.local/share/vifm/Trash/000_vaga.png
+	/home/stas/Documents/SPECIES/Adineta/SUBM/CB/vaga.png
+t/home/stas/.local/share/vifm/Trash/000_arkhip.zip
+	/home/stas/.fonts/arkhip.zip
+t/home/stas/.local/share/vifm/Trash/000_Ahamono-Font.zip
+	/home/stas/.fonts/Ahamono-Font.zip
+t/home/stas/.local/share/vifm/Trash/000_.accent.ttf
+	/home/stas/.fonts/.accent.ttf
+t/home/stas/.local/share/vifm/Trash/000_.uuid
+	/home/stas/.fonts/.uuid
+t/home/stas/.local/share/vifm/Trash/000_accent-true-type.zip
+	/home/stas/.fonts/accent-true-type.zip
+t/home/stas/.local/share/vifm/Trash/000___MACOSX
+	/home/stas/.fonts/__MACOSX
+t/home/stas/.local/share/vifm/Trash/000_Construthinvism_Regular.zip
+	/home/stas/.fonts/Construthinvism_Regular.zip
+t/home/stas/.local/share/vifm/Trash/000_dita_sweet.zip
+	/home/stas/.fonts/dita_sweet.zip
+t/home/stas/.local/share/vifm/Trash/000_Lovelo.zip
+	/home/stas/.fonts/Lovelo.zip
+t/home/stas/.local/share/vifm/Trash/000_sansita.zip
+	/home/stas/.fonts/sansita.zip
+t/home/stas/.local/share/vifm/Trash/001_Construthinvism_Regular.zip
+	/home/stas/Downloads/Construthinvism_Regular.zip
+t/home/stas/.local/share/vifm/Trash/001_dita_sweet.zip
+	/home/stas/Downloads/dita_sweet.zip
+t/home/stas/.local/share/vifm/Trash/001_Lovelo.zip
+	/home/stas/Downloads/Lovelo.zip
+t/home/stas/.local/share/vifm/Trash/001_accent-true-type.zip
+	/home/stas/Downloads/accent-true-type.zip
+t/home/stas/.local/share/vifm/Trash/000_monastic.zip
+	/home/stas/Downloads/monastic.zip
+t/home/stas/.local/share/vifm/Trash/000_neumann.zip
+	/home/stas/.fonts/neumann.zip
+t/home/stas/.local/share/vifm/Trash/000_old-pixel-7.zip
+	/home/stas/.fonts/old-pixel-7.zip
+t/home/stas/.local/share/vifm/Trash/000_wes.zip
+	/home/stas/.fonts/wes.zip
+t/home/stas/.local/share/vifm/Trash/000_Kurale.zip
+	/home/stas/.fonts/Kurale.zip
+t/home/stas/.local/share/vifm/Trash/000_lg!w8z.jpg
+	/home/stas/Downloads/lg!w8z.jpg
+t/home/stas/.local/share/vifm/Trash/000_89_big.jpg
+	/home/stas/Downloads/89_big.jpg
+t/home/stas/.local/share/vifm/Trash/000_genomeview-N42.zip
+	/home/stas/Programs/genomeview-N42.zip
+t/home/stas/.local/share/vifm/Trash/000_JBrowse-1.16.8-desktop-linux-x64.zip
+	/home/stas/Programs/JBrowse-1.16.8-desktop-linux-x64.zip
+t/home/stas/.local/share/vifm/Trash/000_jbrowse-64x64.png
+	/home/stas/.local/share/icons/jbrowse-64x64.png
+t/home/stas/.local/share/vifm/Trash/000_GCF_000746075.1_ASM74607v1_genomic.gff.gz
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Marc/GCF_000746075.1_ASM74607v1_genomic.gff.gz
+t/home/stas/.local/share/vifm/Trash/000_GCF_000745485.1_ASM74548v1_genomic.gff.gz
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/GCF_000745485.1_ASM74548v1_genomic.gff.gz
+t/home/stas/.local/share/vifm/Trash/000_GCF_000745485.1_ASM74548v1_genomic.gbff
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Marc/GCF_000745485.1_ASM74548v1_genomic.gbff
+t/home/stas/.local/share/vifm/Trash/000_GCF_000745485.1_ASM74548v1_genomic.gbff.gz
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Marc/GCF_000745485.1_ASM74548v1_genomic.gbff.gz
+t/home/stas/.local/share/vifm/Trash/000_IM001132.TIZ
+	/home/stas/Downloads/IM001132.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001131.TIZ
+	/home/stas/Downloads/IM001131.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001132.STA
+	/home/stas/Downloads/IM001132.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001130.TIZ
+	/home/stas/Downloads/IM001130.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001131.STA
+	/home/stas/Downloads/IM001131.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001129.TIZ
+	/home/stas/Downloads/IM001129.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001130.STA
+	/home/stas/Downloads/IM001130.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001129.STA
+	/home/stas/Downloads/IM001129.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001128.TIZ
+	/home/stas/Downloads/IM001128.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001128.STA
+	/home/stas/Downloads/IM001128.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001127.TIZ
+	/home/stas/Downloads/IM001127.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001126.TIZ
+	/home/stas/Downloads/IM001126.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001127.STA
+	/home/stas/Downloads/IM001127.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001125.TIZ
+	/home/stas/Downloads/IM001125.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001126.STA
+	/home/stas/Downloads/IM001126.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001124.TIZ
+	/home/stas/Downloads/IM001124.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001125.STA
+	/home/stas/Downloads/IM001125.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001123.TIZ
+	/home/stas/Downloads/IM001123.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001124.STA
+	/home/stas/Downloads/IM001124.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001122.TIZ
+	/home/stas/Downloads/IM001122.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001123.STA
+	/home/stas/Downloads/IM001123.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001122.STA
+	/home/stas/Downloads/IM001122.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001121.TIZ
+	/home/stas/Downloads/IM001121.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001120.TIZ
+	/home/stas/Downloads/IM001120.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001121.STA
+	/home/stas/Downloads/IM001121.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001120.STA
+	/home/stas/Downloads/IM001120.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001119.TIZ
+	/home/stas/Downloads/IM001119.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001119.STA
+	/home/stas/Downloads/IM001119.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001118.TIZ
+	/home/stas/Downloads/IM001118.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001118.STA
+	/home/stas/Downloads/IM001118.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001117.TIZ
+	/home/stas/Downloads/IM001117.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001116.TIZ
+	/home/stas/Downloads/IM001116.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001117.STA
+	/home/stas/Downloads/IM001117.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001116.STA
+	/home/stas/Downloads/IM001116.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001115.TIZ
+	/home/stas/Downloads/IM001115.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001114.TIZ
+	/home/stas/Downloads/IM001114.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001115.STA
+	/home/stas/Downloads/IM001115.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001113.TIZ
+	/home/stas/Downloads/IM001113.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001114.STA
+	/home/stas/Downloads/IM001114.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001112.TIZ
+	/home/stas/Downloads/IM001112.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001113.STA
+	/home/stas/Downloads/IM001113.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001111.STA
+	/home/stas/Downloads/IM001111.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001111.TIZ
+	/home/stas/Downloads/IM001111.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001112.STA
+	/home/stas/Downloads/IM001112.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001110.TIZ
+	/home/stas/Downloads/IM001110.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001109.TIZ
+	/home/stas/Downloads/IM001109.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001110.STA
+	/home/stas/Downloads/IM001110.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001109.STA
+	/home/stas/Downloads/IM001109.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001108.TIZ
+	/home/stas/Downloads/IM001108.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001108.STA
+	/home/stas/Downloads/IM001108.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001107.TIZ
+	/home/stas/Downloads/IM001107.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001106.TIZ
+	/home/stas/Downloads/IM001106.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001107.STA
+	/home/stas/Downloads/IM001107.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001105.TIZ
+	/home/stas/Downloads/IM001105.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001106.STA
+	/home/stas/Downloads/IM001106.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001104.TIZ
+	/home/stas/Downloads/IM001104.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001105.STA
+	/home/stas/Downloads/IM001105.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001103.TIZ
+	/home/stas/Downloads/IM001103.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001104.STA
+	/home/stas/Downloads/IM001104.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001102.TIZ
+	/home/stas/Downloads/IM001102.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001103.STA
+	/home/stas/Downloads/IM001103.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001102.STA
+	/home/stas/Downloads/IM001102.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001101.STA
+	/home/stas/Downloads/IM001101.STA
+t/home/stas/.local/share/vifm/Trash/000_IM001101.TIZ
+	/home/stas/Downloads/IM001101.TIZ
+t/home/stas/.local/share/vifm/Trash/000_IM001128.TIF
+	/home/stas/Downloads/IM001128.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001127.TIF
+	/home/stas/Downloads/IM001127.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001126.TIF
+	/home/stas/Downloads/IM001126.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001125.TIF
+	/home/stas/Downloads/IM001125.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001124.TIF
+	/home/stas/Downloads/IM001124.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001123.TIF
+	/home/stas/Downloads/IM001123.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001122.TIF
+	/home/stas/Downloads/IM001122.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001121.TIF
+	/home/stas/Downloads/IM001121.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001120.TIF
+	/home/stas/Downloads/IM001120.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001119.TIF
+	/home/stas/Downloads/IM001119.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001118.TIF
+	/home/stas/Downloads/IM001118.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001117.TIF
+	/home/stas/Downloads/IM001117.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001116.TIF
+	/home/stas/Downloads/IM001116.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001115.TIF
+	/home/stas/Downloads/IM001115.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001114.TIF
+	/home/stas/Downloads/IM001114.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001113.TIF
+	/home/stas/Downloads/IM001113.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001112.TIF
+	/home/stas/Downloads/IM001112.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001111.TIF
+	/home/stas/Downloads/IM001111.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001109.TIF
+	/home/stas/Downloads/IM001109.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001110.TIF
+	/home/stas/Downloads/IM001110.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001108.TIF
+	/home/stas/Downloads/IM001108.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001107.TIF
+	/home/stas/Downloads/IM001107.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001106.TIF
+	/home/stas/Downloads/IM001106.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001105.TIF
+	/home/stas/Downloads/IM001105.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001104.TIF
+	/home/stas/Downloads/IM001104.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001103.TIF
+	/home/stas/Downloads/IM001103.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001101.TIF
+	/home/stas/Downloads/IM001101.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001102.TIF
+	/home/stas/Downloads/IM001102.TIF
+t/home/stas/.local/share/vifm/Trash/000_PCR-20-4.pdf
+	/home/stas/Documents/PCR/PCR-20-4.pdf
+t/home/stas/.local/share/vifm/Trash/000_PCR-20-5.ods
+	/home/stas/Documents/PCR/PCR-20-5.ods
+t/home/stas/.local/share/vifm/Trash/001_PCR-20-4.pdf
+	/home/stas/Documents/PCR/PDF/PCR-20-4.pdf
+t/home/stas/.local/share/vifm/Trash/000_pcr.pdf
+	/home/stas/Documents/PCR/PDF/pcr.pdf
+t/home/stas/.local/share/vifm/Trash/000_Комитет-защиты-права.pdf
+	/home/stas/Downloads/Комитет-защиты-права.pdf
+t/home/stas/.local/share/vifm/Trash/000_IM001136.TIF
+	/home/stas/Downloads/IM001136.TIF
+t/home/stas/.local/share/vifm/Trash/000_IM001135.TIF
+	/home/stas/Downloads/IM001135.TIF
+t/home/stas/.local/share/vifm/Trash/000_1 Инф письмо Конференция 50лет ИФХиБПП РАН.pdf
+	/home/stas/Downloads/1 Инф письмо Конференция 50лет ИФХиБПП РАН.pdf
+t/home/stas/.local/share/vifm/Trash/000_Стива
+	/home/stas/Downloads/Стива
+t/home/stas/.local/share/vifm/Trash/000_tmp
+	/home/stas/Downloads/tmp
+t/home/stas/.local/share/vifm/Trash/000_awk
+	/home/stas/Downloads/awk
+t/home/stas/.local/share/vifm/Trash/000_dataset
+	/home/stas/Downloads/dataset
+t/home/stas/.local/share/vifm/Trash/000_mugsy_x86-64-v1r2.2
+	/home/stas/Programs/mugsy_x86-64-v1r2.2
+t/home/stas/.local/share/vifm/Trash/000_mugsy_x86-64-v1r2.2.tgz
+	/home/stas/Programs/mugsy_x86-64-v1r2.2.tgz
+t/home/stas/.local/share/vifm/Trash/000_FileZilla3
+	/home/stas/Programs/FileZilla3
+t/home/stas/.local/share/vifm/Trash/000_htslib
+	/home/stas/Downloads/htslib
+t/home/stas/.local/share/vifm/Trash/000_samtools
+	/home/stas/Downloads/samtools
+t/home/stas/.local/share/vifm/Trash/000_ncbi-blast-2.10.0+-src
+	/home/stas/Downloads/ncbi-blast-2.10.0+-src
+t/home/stas/.local/share/vifm/Trash/000_Augustus
+	/home/stas/Downloads/Augustus
+t/home/stas/.local/share/vifm/Trash/000_vim-msa
+	/home/stas/Downloads/vim-msa
+t/home/stas/.local/share/vifm/Trash/000_firefox.png
+	/home/stas/.local/share/icons/firefox.png
+t/home/stas/.local/share/vifm/Trash/000_ЕПД (01.2019) (13).pdf
+	/home/stas/Downloads/ЕПД (01.2019) (13).pdf
+t/home/stas/.local/share/vifm/Trash/000_ЕПД (01.2019) (12).pdf
+	/home/stas/Downloads/ЕПД (01.2019) (12).pdf
+t/home/stas/.local/share/vifm/Trash/000_ЕПД (01.2019) (11).pdf
+	/home/stas/Downloads/ЕПД (01.2019) (11).pdf
+t/home/stas/.local/share/vifm/Trash/000_ЕПД (01.2019) (10).pdf
+	/home/stas/Downloads/ЕПД (01.2019) (10).pdf
+t/home/stas/.local/share/vifm/Trash/000_ЕПД (01.2019) (9).pdf
+	/home/stas/Downloads/ЕПД (01.2019) (9).pdf
+t/home/stas/.local/share/vifm/Trash/000_ЕПД (01.2019) (8).pdf
+	/home/stas/Downloads/ЕПД (01.2019) (8).pdf
+t/home/stas/.local/share/vifm/Trash/000_ЕПД (01.2019) (7).pdf
+	/home/stas/Downloads/ЕПД (01.2019) (7).pdf
+t/home/stas/.local/share/vifm/Trash/000_ЕПД (01.2019) (6).pdf
+	/home/stas/Downloads/ЕПД (01.2019) (6).pdf
+t/home/stas/.local/share/vifm/Trash/000_ЕПД (01.2019) (5).pdf
+	/home/stas/Downloads/ЕПД (01.2019) (5).pdf
+t/home/stas/.local/share/vifm/Trash/000_ЕПД (01.2019) (4).pdf
+	/home/stas/Downloads/ЕПД (01.2019) (4).pdf
+t/home/stas/.local/share/vifm/Trash/000_ЕПД (01.2019) (3).pdf
+	/home/stas/Downloads/ЕПД (01.2019) (3).pdf
+t/home/stas/.local/share/vifm/Trash/000_Downloads.zip
+	/home/stas/Downloads/Downloads.zip
+t/home/stas/.local/share/vifm/Trash/000_4_act240d_C12.ab1
+	/home/stas/Downloads/4_act240d_C12.ab1
+t/home/stas/.local/share/vifm/Trash/000_4_act870dr_D12.ab1
+	/home/stas/Downloads/4_act870dr_D12.ab1
+t/home/stas/.local/share/vifm/Trash/000_8_HCO_F12.ab1
+	/home/stas/Downloads/8_HCO_F12.ab1
+t/home/stas/.local/share/vifm/Trash/000_8_LCO_E12.ab1
+	/home/stas/Downloads/8_LCO_E12.ab1
+t/home/stas/.local/share/vifm/Trash/000_9_HCO_H12.ab1
+	/home/stas/Downloads/9_HCO_H12.ab1
+t/home/stas/.local/share/vifm/Trash/000_9_LCO_G12.ab1
+	/home/stas/Downloads/9_LCO_G12.ab1
+t/home/stas/.local/share/vifm/Trash/000_10_HCO_B1.ab1
+	/home/stas/Downloads/10_HCO_B1.ab1
+t/home/stas/.local/share/vifm/Trash/000_10_LCO_A1.ab1
+	/home/stas/Downloads/10_LCO_A1.ab1
+t/home/stas/.local/share/vifm/Trash/000_11_HCO_D1.ab1
+	/home/stas/Downloads/11_HCO_D1.ab1
+t/home/stas/.local/share/vifm/Trash/000_11_HCO_D1.seq
+	/home/stas/Downloads/11_HCO_D1.seq
+t/home/stas/.local/share/vifm/Trash/000_11_LCO_C1.ab1
+	/home/stas/Downloads/11_LCO_C1.ab1
+t/home/stas/.local/share/vifm/Trash/000_11_LCO_C1.seq
+	/home/stas/Downloads/11_LCO_C1.seq
+t/home/stas/.local/share/vifm/Trash/000_16_P1fw_E1.ab1
+	/home/stas/Downloads/16_P1fw_E1.ab1
+t/home/stas/.local/share/vifm/Trash/000_16_RibB_F1.ab1
+	/home/stas/Downloads/16_RibB_F1.ab1
+t/home/stas/.local/share/vifm/Trash/000_17_P1fw_G1.ab1
+	/home/stas/Downloads/17_P1fw_G1.ab1
+t/home/stas/.local/share/vifm/Trash/000_17_P1fw_G1.seq
+	/home/stas/Downloads/17_P1fw_G1.seq
+t/home/stas/.local/share/vifm/Trash/000_17_RibB_H1.ab1
+	/home/stas/Downloads/17_RibB_H1.ab1
+t/home/stas/.local/share/vifm/Trash/000_17_RibB_H1.seq
+	/home/stas/Downloads/17_RibB_H1.seq
+t/home/stas/.local/share/vifm/Trash/000_mpv-shot0001.jpg
+	/home/stas/Videos/218-vid/Bykovskiy/Mamont/132/T/mpv-shot0001.jpg
+t/home/stas/.local/share/vifm/Trash/000_filetypes-.jpg
+	/home/stas/.config/vifm/filetypes-.jpg
+t/home/stas/.local/share/vifm/Trash/000_132-19-T-15-.jpg
+	/home/stas/Videos/218-vid/Bykovskiy/Mamont/132/T/132-19-T-15-.jpg
+t/home/stas/.local/share/vifm/Trash/000_%d
+	/home/stas/Videos/218-vid/Bykovskiy/Mamont/132/T/%d
+t/home/stas/.local/share/vifm/Trash/000_132-19-T-15-00:00:01.433.jpg
+	/home/stas/Videos/218-vid/Bykovskiy/Mamont/132/T/132-19-T-15-00:00:01.433.jpg
+t/home/stas/.local/share/vifm/Trash/000_132-19-T-28-29-30-00:04:11.500.jpg
+	/home/stas/Videos/218-vid/Bykovskiy/Mamont/132/T/132-19-T-28-29-30-00:04:11.500.jpg
+t/home/stas/.local/share/vifm/Trash/000_sos-logo-text2.png
+	/home/stas/Downloads/sos-logo-text2.png
+t/home/stas/.local/share/vifm/Trash/000_sos-logo-text1.png
+	/home/stas/Downloads/sos-logo-text1.png
+t/home/stas/.local/share/vifm/Trash/000_sos-logo-text1-bg.png
+	/home/stas/Downloads/sos-logo-text1-bg.png
+t/home/stas/.local/share/vifm/Trash/000_SoS-logo-basic.svg
+	/home/stas/Downloads/SoS-logo-basic.svg
+t/home/stas/.local/share/vifm/Trash/000_sos-logo-text.png
+	/home/stas/Downloads/sos-logo-text.png
+t/home/stas/.local/share/vifm/Trash/000_dna-pensil.svg
+	/home/stas/Downloads/dna-pensil.svg
+t/home/stas/.local/share/vifm/Trash/000_SoS-logo.png
+	/home/stas/Downloads/SoS-logo.png
+t/home/stas/.local/share/vifm/Trash/000_PNCBI-RAN-logo23.png
+	/home/stas/Downloads/PNCBI-RAN-logo23.png
+t/home/stas/.local/share/vifm/Trash/000_PNCBI-RAN-logo1.png
+	/home/stas/Downloads/PNCBI-RAN-logo1.png
+t/home/stas/.local/share/vifm/Trash/000_SoS-logo-text1.svg
+	/home/stas/Downloads/SoS-logo-text1.svg
+t/home/stas/.local/share/vifm/Trash/000_SoS-logo-text4.png
+	/home/stas/Downloads/SoS-logo-text4.png
+t/home/stas/.local/share/vifm/Trash/000_SoS-logo-text5.png
+	/home/stas/Downloads/SoS-logo-text5.png
+t/home/stas/.local/share/vifm/Trash/000_sos-logo-text3.png
+	/home/stas/Downloads/sos-logo-text3.png
+t/home/stas/.local/share/vifm/Trash/000_oo_404092.csv
+	/home/stas/Downloads/oo_404092.csv
+t/home/stas/.local/share/vifm/Trash/000_table1.csv
+	/home/stas/Downloads/table1.csv
+t/home/stas/.local/share/vifm/Trash/000_oo_384826.csv
+	/home/stas/Downloads/oo_384826.csv
+t/home/stas/.local/share/vifm/Trash/000_dwca-ancientpermafrostamoeboidprotists-v1.4.zip
+	/home/stas/Downloads/dwca-ancientpermafrostamoeboidprotists-v1.4.zip
+t/home/stas/.local/share/vifm/Trash/000_Отчет-2018-Метагеномыювщсч.odt
+	/home/stas/Downloads/Отчет-2018-Метагеномыювщсч.odt
+t/home/stas/.local/share/vifm/Trash/000_permaice (1).shp
+	/home/stas/Downloads/permaice (1).shp
+t/home/stas/.local/share/vifm/Trash/000_Export (1).xlsx
+	/home/stas/Downloads/Export (1).xlsx
+t/home/stas/.local/share/vifm/Trash/000_Export.xlsx
+	/home/stas/Downloads/Export.xlsx
+t/home/stas/.local/share/vifm/Trash/000_UNLK Отчет-2020-методика.docx
+	/home/stas/Downloads/UNLK Отчет-2020-методика.docx
+t/home/stas/.local/share/vifm/Trash/000_R-4.0.1.tar
+	/home/stas/Downloads/R-4.0.1.tar
+t/home/stas/.local/share/vifm/Trash/000_R-4.0.1.tar.gz
+	/home/stas/Downloads/R-4.0.1.tar.gz
+t/home/stas/.local/share/vifm/Trash/000_2020-06-20-Лупачев-Мерзлота.flv
+	/home/stas/Downloads/2020-06-20-Лупачев-Мерзлота.flv
+t/home/stas/.local/share/vifm/Trash/000_2020-06-20-Лупачев-Мерзлота~.flv
+	/home/stas/Downloads/2020-06-20-Лупачев-Мерзлота~.flv
+t/home/stas/.local/share/vifm/Trash/000_2020-06-20-Лупачев-Мерзлота~~.flv
+	/home/stas/Downloads/2020-06-20-Лупачев-Мерзлота~~.flv
+t/home/stas/.local/share/vifm/Trash/000_1a_act433f_C5.seq
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/SEQ/1a_act433f_C5.seq
+t/home/stas/.local/share/vifm/Trash/000_1a_act821r_D5.seq
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/SEQ/1a_act821r_D5.seq
+t/home/stas/.local/share/vifm/Trash/000_2_HCO2198_H3.seq
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/SEQ/2_HCO2198_H3.seq
+t/home/stas/.local/share/vifm/Trash/000_2_LCO1490_G3.seq
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/SEQ/2_LCO1490_G3.seq
+t/home/stas/.local/share/vifm/Trash/000_2a_act433f_E5.seq
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/SEQ/2a_act433f_E5.seq
+t/home/stas/.local/share/vifm/Trash/000_2a_act821r_F5.seq
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/SEQ/2a_act821r_F5.seq
+t/home/stas/.local/share/vifm/Trash/000_3_HCO2198_B4.seq
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/SEQ/3_HCO2198_B4.seq
+t/home/stas/.local/share/vifm/Trash/000_3_LCO1490_A4.seq
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/SEQ/3_LCO1490_A4.seq
+t/home/stas/.local/share/vifm/Trash/000_3a_act433f_G5.seq
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/SEQ/3a_act433f_G5.seq
+t/home/stas/.local/share/vifm/Trash/000_3a_act821r_H5.seq
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/SEQ/3a_act821r_H5.seq
+t/home/stas/.local/share/vifm/Trash/000_4_HCO2198_D4.seq
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/SEQ/4_HCO2198_D4.seq
+t/home/stas/.local/share/vifm/Trash/000_4_LCO1490_C4.seq
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/SEQ/4_LCO1490_C4.seq
+t/home/stas/.local/share/vifm/Trash/000_5_HCO2198_F4.seq
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/SEQ/5_HCO2198_F4.seq
+t/home/stas/.local/share/vifm/Trash/000_5_LCO1490_E4.seq
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/SEQ/5_LCO1490_E4.seq
+t/home/stas/.local/share/vifm/Trash/000_6_HCO2198_H4.seq
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/SEQ/6_HCO2198_H4.seq
+t/home/stas/.local/share/vifm/Trash/000_6_LCO1490_G4.seq
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/SEQ/6_LCO1490_G4.seq
+t/home/stas/.local/share/vifm/Trash/000_7_HCO2198_B5.seq
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/SEQ/7_HCO2198_B5.seq
+t/home/stas/.local/share/vifm/Trash/000_7_LCO1490_A5.seq
+	/home/stas/Documents/BIOINFO/METAGENOMES/AL3-15/Actin/SEQ/7_LCO1490_A5.seq
+t/home/stas/.local/share/vifm/Trash/000_19-9-Cox1-assemble.uprj
+	/home/stas/Documents/SPECIES/Adineta/19-9/SEQ/19-9-Cox1-assemble.uprj
+t/home/stas/.local/share/vifm/Trash/000_2p.fst
+	/home/stas/Documents/SPECIES/Adineta/19-9/SEQ/2p.fst
+t/home/stas/.local/share/vifm/Trash/000_gnutypewriter.zip
+	/home/stas/.fonts/gnutypewriter.zip
+t/home/stas/.local/share/vifm/Trash/000_gabriele_bad_ah.zip
+	/home/stas/.fonts/gabriele_bad_ah.zip
+t/home/stas/.local/share/vifm/Trash/000_5.fa
+	/home/stas/Documents/SPECIES/Adineta/19-9/SEQ/5.fa
+t/home/stas/.local/share/vifm/Trash/000_6.fa
+	/home/stas/Documents/SPECIES/Adineta/19-9/SEQ/6.fa
+t/home/stas/.local/share/vifm/Trash/000_7.fa
+	/home/stas/Documents/SPECIES/Adineta/19-9/SEQ/7.fa
+t/home/stas/.local/share/vifm/Trash/000_lcl_Query_30023 and 100 other sequences.aln
+	/home/stas/Downloads/lcl_Query_30023 and 100 other sequences.aln
+t/home/stas/.local/share/vifm/Trash/000_19-9-Cox1-BLAST-res.fasta
+	/home/stas/Documents/SPECIES/Adineta/19-9/SEQ/19-9-Cox1-BLAST-res.fasta
+t/home/stas/.local/share/vifm/Trash/000_19-9-Cox1-BLAST-res.mafft.log
+	/home/stas/Documents/SPECIES/Adineta/19-9/SEQ/19-9-Cox1-BLAST-res.mafft.log
+t/home/stas/.local/share/vifm/Trash/000_19-9-Cox1-BLAST-res.mafft
+	/home/stas/Documents/SPECIES/Adineta/19-9/SEQ/19-9-Cox1-BLAST-res.mafft
+t/home/stas/.local/share/vifm/Trash/000_19-9-Cox1-BLAST-res.fasta.bionj
+	/home/stas/Documents/SPECIES/Adineta/19-9/SEQ/19-9-Cox1-BLAST-res.fasta.bionj
+t/home/stas/.local/share/vifm/Trash/000_19-9-Cox1-BLAST-res.fasta.ckp.gz
+	/home/stas/Documents/SPECIES/Adineta/19-9/SEQ/19-9-Cox1-BLAST-res.fasta.ckp.gz
+t/home/stas/.local/share/vifm/Trash/000_19-9-Cox1-BLAST-res.fasta.iqtree
+	/home/stas/Documents/SPECIES/Adineta/19-9/SEQ/19-9-Cox1-BLAST-res.fasta.iqtree
+t/home/stas/.local/share/vifm/Trash/000_19-9-Cox1-BLAST-res.fasta.log
+	/home/stas/Documents/SPECIES/Adineta/19-9/SEQ/19-9-Cox1-BLAST-res.fasta.log
+t/home/stas/.local/share/vifm/Trash/000_19-9-Cox1-BLAST-res.fasta.mldist
+	/home/stas/Documents/SPECIES/Adineta/19-9/SEQ/19-9-Cox1-BLAST-res.fasta.mldist
+t/home/stas/.local/share/vifm/Trash/000_19-9-Cox1-BLAST-res.fasta.model.gz
+	/home/stas/Documents/SPECIES/Adineta/19-9/SEQ/19-9-Cox1-BLAST-res.fasta.model.gz
+t/home/stas/.local/share/vifm/Trash/000_19-9-Cox1-BLAST-res.fasta.splits.nex
+	/home/stas/Documents/SPECIES/Adineta/19-9/SEQ/19-9-Cox1-BLAST-res.fasta.splits.nex
+t/home/stas/.local/share/vifm/Trash/000_19-9-Cox1-BLAST-res.fasta.treefile
+	/home/stas/Documents/SPECIES/Adineta/19-9/SEQ/19-9-Cox1-BLAST-res.fasta.treefile
+t/home/stas/.local/share/vifm/Trash/000_19-9-Cox1-BLAST-res.fasta.ufboot
+	/home/stas/Documents/SPECIES/Adineta/19-9/SEQ/19-9-Cox1-BLAST-res.fasta.ufboot
+t/home/stas/.local/share/vifm/Trash/000_busco-fragm.fst
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/busco-fragm.fst
+t/home/stas/.local/share/vifm/Trash/000_busco-multi-copy.fst
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/busco-multi-copy.fst
+t/home/stas/.local/share/vifm/Trash/000_busco-single-copy.fst
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/busco-single-copy.fst
+t/home/stas/.local/share/vifm/Trash/000_lastal-actin.maf
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/lastal-actin.maf
+t/home/stas/.local/share/vifm/Trash/000_lastal.maf
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/lastal.maf
+t/home/stas/.local/share/vifm/Trash/000_last
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/last
+t/home/stas/.local/share/vifm/Trash/000_Actin-metagenomic.mase
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/Actin-metagenomic.mase
+t/home/stas/.local/share/vifm/Trash/000_Mapped reads_consensus.fa
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/TRACES/Mapped reads_consensus.fa
+t/home/stas/.local/share/vifm/Trash/000_metagenomic.fst
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/TRACES/metagenomic.fst
+t/home/stas/.local/share/vifm/Trash/000_for-iqtree.fst.bionj
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/for-iqtree.fst.bionj
+t/home/stas/.local/share/vifm/Trash/000_for-iqtree.fst.ckp.gz
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/for-iqtree.fst.ckp.gz
+t/home/stas/.local/share/vifm/Trash/000_for-iqtree.fst.iqtree
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/for-iqtree.fst.iqtree
+t/home/stas/.local/share/vifm/Trash/000_for-iqtree.fst.log
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/for-iqtree.fst.log
+t/home/stas/.local/share/vifm/Trash/000_for-iqtree.fst.mldist
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/for-iqtree.fst.mldist
+t/home/stas/.local/share/vifm/Trash/000_for-iqtree.fst.model.gz
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/for-iqtree.fst.model.gz
+t/home/stas/.local/share/vifm/Trash/000_for-iqtree.fst.splits.nex
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/for-iqtree.fst.splits.nex
+t/home/stas/.local/share/vifm/Trash/000_for-iqtree.fst.treefile
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/for-iqtree.fst.treefile
+t/home/stas/.local/share/vifm/Trash/000_MappedActin-BLAST_AdinGCA000513175.fasta.bionj
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/MappedActin-BLAST_AdinGCA000513175.fasta.bionj
+t/home/stas/.local/share/vifm/Trash/000_MappedActin-BLAST_AdinGCA000513175.fasta.ckp.gz
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/MappedActin-BLAST_AdinGCA000513175.fasta.ckp.gz
+t/home/stas/.local/share/vifm/Trash/000_MappedActin-BLAST_AdinGCA000513175.fasta.contree
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/MappedActin-BLAST_AdinGCA000513175.fasta.contree
+t/home/stas/.local/share/vifm/Trash/000_MappedActin-BLAST_AdinGCA000513175.fasta.iqtree
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/MappedActin-BLAST_AdinGCA000513175.fasta.iqtree
+t/home/stas/.local/share/vifm/Trash/000_MappedActin-BLAST_AdinGCA000513175.fasta.log
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/MappedActin-BLAST_AdinGCA000513175.fasta.log
+t/home/stas/.local/share/vifm/Trash/000_MappedActin-BLAST_AdinGCA000513175.fasta.mldist
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/MappedActin-BLAST_AdinGCA000513175.fasta.mldist
+t/home/stas/.local/share/vifm/Trash/000_MappedActin-BLAST_AdinGCA000513175.fasta.model.gz
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/MappedActin-BLAST_AdinGCA000513175.fasta.model.gz
+t/home/stas/.local/share/vifm/Trash/000_MappedActin-BLAST_AdinGCA000513175.fasta.splits.nex
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/MappedActin-BLAST_AdinGCA000513175.fasta.splits.nex
+t/home/stas/.local/share/vifm/Trash/000_MappedActin-BLAST_AdinGCA000513175.fasta.treefile
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/MappedActin-BLAST_AdinGCA000513175.fasta.treefile
+t/home/stas/.local/share/vifm/Trash/000_MappedActin-BLAST_AdinGCA000513175-PhyML_tree.nwk
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/MappedActin-BLAST_AdinGCA000513175-PhyML_tree.nwk
+t/home/stas/.local/share/vifm/Trash/000_MappedActin-BLAST_AdinGCA000513175.fasta.GTR.contree
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/MappedActin-BLAST_AdinGCA000513175.fasta.GTR.contree
+t/home/stas/.local/share/vifm/Trash/000_MappedActin-BLAST_AdinGCA000513175.fasta.TIM2.contree
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/MappedActin-BLAST_AdinGCA000513175.fasta.TIM2.contree
+t/home/stas/.local/share/vifm/Trash/000_MappedActin-BLAST_AdinGCA000513175.fasta.ufboot
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/MappedActin-BLAST_AdinGCA000513175.fasta.ufboot
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.fasta.log
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.fasta.log
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.fasta.ckp.gz
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.fasta.ckp.gz
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.fasta.iqtree
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.fasta.iqtree
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.fasta.splits.nex
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.fasta.splits.nex
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.fasta.treefile
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.fasta.treefile
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.fasta.ufboot
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.fasta.ufboot
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.fasta.bionj
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.fasta.bionj
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.fasta.mldist
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.fasta.mldist
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.fasta.model.gz
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.fasta.model.gz
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.fasta.uniqueseq.phy
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.fasta.uniqueseq.phy
+t/home/stas/.local/share/vifm/Trash/000_~AL3_15_meta-blastRotiferaGenomes.fasta.ckp.gz
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/~AL3_15_meta-blastRotiferaGenomes.fasta.ckp.gz
+t/home/stas/.local/share/vifm/Trash/000_~AL3_15_meta-blastRotiferaGenomes.fasta.iqtree
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/~AL3_15_meta-blastRotiferaGenomes.fasta.iqtree
+t/home/stas/.local/share/vifm/Trash/000_~AL3_15_meta-blastRotiferaGenomes.fasta.log
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/~AL3_15_meta-blastRotiferaGenomes.fasta.log
+t/home/stas/.local/share/vifm/Trash/000_~AL3_15_meta-blastRotiferaGenomes.fasta.treefile
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/~AL3_15_meta-blastRotiferaGenomes.fasta.treefile
+t/home/stas/.local/share/vifm/Trash/000_~AL3_15_meta-blastRotiferaGenomes.fasta.splits.nex
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/~AL3_15_meta-blastRotiferaGenomes.fasta.splits.nex
+t/home/stas/.local/share/vifm/Trash/000_~AL3_15_meta-blastRotiferaGenomes.fasta.ufboot
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/~AL3_15_meta-blastRotiferaGenomes.fasta.ufboot
+t/home/stas/.local/share/vifm/Trash/000_~AL3_15_meta-blastRotiferaGenomes.fasta.bionj
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/~AL3_15_meta-blastRotiferaGenomes.fasta.bionj
+t/home/stas/.local/share/vifm/Trash/000_~AL3_15_meta-blastRotiferaGenomes.fasta.mldist
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/~AL3_15_meta-blastRotiferaGenomes.fasta.mldist
+t/home/stas/.local/share/vifm/Trash/000_~AL3_15_meta-blastRotiferaGenomes.fasta.model.gz
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/~AL3_15_meta-blastRotiferaGenomes.fasta.model.gz
+t/home/stas/.local/share/vifm/Trash/000_~AL3_15_meta-blastRotiferaGenomes.fasta.uniqueseq.phy
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/~AL3_15_meta-blastRotiferaGenomes.fasta.uniqueseq.phy
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.fasta
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.fasta
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.fasta.contree
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.fasta.contree
+t/home/stas/.local/share/vifm/Trash/000_prim3-compl-seq.mafft
+	/home/stas/Downloads/prim3-compl-seq.mafft
+t/home/stas/.local/share/vifm/Trash/000_Коваль Юрий - Суер-Выер [Александр Клюквин, 2005, Роман, 128 kbps] [rutracker-3342075].torrent
+	/home/stas/Downloads/Коваль Юрий - Суер-Выер [Александр Клюквин, 2005, Роман, 128 kbps] [rutracker-3342075].torrent
+t/home/stas/.local/share/vifm/Trash/000_Коваль Юрий - Самая легкая лодка в мире [Герасимов Вячеслав, 2013 г., 96 kbps, MP3] [rutracker-5280335].torrent
+	/home/stas/Downloads/Коваль Юрий - Самая легкая лодка в мире [Герасимов Вячеслав, 2013 г., 96 kbps, MP3] [rutracker-5280335].torrent
+t/home/stas/.local/share/vifm/Trash/000_Коваль Юрий - Самая легкая лодка в мире [Александр Быков, 2007 г., 128 kbps, MP3] [rutracker-5206747].torrent
+	/home/stas/Downloads/Коваль Юрий - Самая легкая лодка в мире [Александр Быков, 2007 г., 128 kbps, MP3] [rutracker-5206747].torrent
+t/home/stas/.local/share/vifm/Trash/000_Майнкрафт (Minecraft). – Дневник Стива 14, Крайний том [Александр Слуцкий, 2020, 128 kbps, MP3] [rutracker-5912461].torrent
+	/home/stas/Downloads/Майнкрафт (Minecraft). – Дневник Стива 14, Крайний том [Александр Слуцкий, 2020, 128 kbps, MP3] [rutracker-5912461].torrent
+t/home/stas/.local/share/vifm/Trash/000_Майнкрафт (Minecraft). – Дневник Стива 13, Визжащий в лабиринте [Александр Слуцкий, 2020, 128 kbps, MP3] [rutracker-5908996].torrent
+	/home/stas/Downloads/Майнкрафт (Minecraft). – Дневник Стива 13, Визжащий в лабиринте [Александр Слуцкий, 2020, 128 kbps, MP3] [rutracker-5908996].torrent
+t/home/stas/.local/share/vifm/Trash/000_Майнкрафт (Minecraft). – Дневник Стива 12, Куда глаза летят [Александр Слуцкий, 2020, 128 kbps, MP3] [rutracker-5908994].torrent
+	/home/stas/Downloads/Майнкрафт (Minecraft). – Дневник Стива 12, Куда глаза летят [Александр Слуцкий, 2020, 128 kbps, MP3] [rutracker-5908994].torrent
+t/home/stas/.local/share/vifm/Trash/000_Майнкрафт (Minecraft). – Дневник Стива 11, Дом в тёмном лесу [Александр Слуцкий, 2020, 128 kbps, MP3] [rutracker-5908992].torrent
+	/home/stas/Downloads/Майнкрафт (Minecraft). – Дневник Стива 11, Дом в тёмном лесу [Александр Слуцкий, 2020, 128 kbps, MP3] [rutracker-5908992].torrent
+t/home/stas/.local/share/vifm/Trash/000_Майнкрафт (Minecraft). – Дневник Стива 10, На суше и на море [Александр Слуцкий, 2020, 128 kbps, MP3] [rutracker-5908990].torrent
+	/home/stas/Downloads/Майнкрафт (Minecraft). – Дневник Стива 10, На суше и на море [Александр Слуцкий, 2020, 128 kbps, MP3] [rutracker-5908990].torrent
+t/home/stas/.local/share/vifm/Trash/000_Майнкрафт (Minecraft). – Дневник Стива 9, Куда приводит портал [Александр Слуцкий, 2020, 128 kbps, MP3] [rutracker-5908989].torrent
+	/home/stas/Downloads/Майнкрафт (Minecraft). – Дневник Стива 9, Куда приводит портал [Александр Слуцкий, 2020, 128 kbps, MP3] [rutracker-5908989].torrent
+t/home/stas/.local/share/vifm/Trash/000_Майнкрафт (Minecraft). Дневник Стива 8, Холодные игры [Олег Вахрушев, 2020, 56 kbps, MP3] [rutracker-5883369].torrent
+	/home/stas/Downloads/Майнкрафт (Minecraft). Дневник Стива 8, Холодные игры [Олег Вахрушев, 2020, 56 kbps, MP3] [rutracker-5883369].torrent
+t/home/stas/.local/share/vifm/Trash/000_Майнкрафт (Minecraft). Дневник Стива 7, Стив, колдунья и наковальни [Олег Вахрушев, 2020, 56 kbps, MP3] [rutracker-5883360] (1).torrent
+	/home/stas/Downloads/Майнкрафт (Minecraft). Дневник Стива 7, Стив, колдунья и наковальни [Олег Вахрушев, 2020, 56 kbps, MP3] [rutracker-5883360] (1).torrent
+t/home/stas/.local/share/vifm/Trash/000_Майнкрафт (Minecraft). Дневник Стива 7, Стив, колдунья и наковальни [Олег Вахрушев, 2020, 56 kbps, MP3] [rutracker-5883360].torrent
+	/home/stas/Downloads/Майнкрафт (Minecraft). Дневник Стива 7, Стив, колдунья и наковальни [Олег Вахрушев, 2020, 56 kbps, MP3] [rutracker-5883360].torrent
+t/home/stas/.local/share/vifm/Trash/000_C_OEOC01000002.fa
+	/home/stas/Downloads/C_OEOC01000002.fa
+t/home/stas/.local/share/vifm/Trash/000_newfile1.mafft
+	/home/stas/Downloads/newfile1.mafft
+t/home/stas/.local/share/vifm/Trash/000_newfile1.fst
+	/home/stas/Downloads/newfile1.fst
+t/home/stas/.local/share/vifm/Trash/000_prim3-compl-seq.fasta
+	/home/stas/Downloads/prim3-compl-seq.fasta
+t/home/stas/.local/share/vifm/Trash/000_C_CAWI020041581_tr.fa
+	/home/stas/Downloads/C_CAWI020041581_tr.fa
+t/home/stas/.local/share/vifm/Trash/000_Primers-3d-order.fasta
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/Primers-3d-order.fasta
+t/home/stas/.local/share/vifm/Trash/000_zlib-1.2.9.tar
+	/home/stas/Downloads/zlib-1.2.9.tar
+t/home/stas/.local/share/vifm/Trash/000_zlib-1.2.9.tar.gz
+	/home/stas/Downloads/zlib-1.2.9.tar.gz
+t/home/stas/.local/share/vifm/Trash/000_libz.so.1.2.9
+	/home/stas/anaconda3/lib/libz.so.1.2.9
+t/home/stas/.local/share/vifm/Trash/000_Hup-hydrogenases (1).pdf
+	/home/stas/Downloads/Hup-hydrogenases (1).pdf
+t/home/stas/.local/share/vifm/Trash/000_JEUKMIC-20-5377_rev.pdf
+	/home/stas/Downloads/JEUKMIC-20-5377_rev.pdf
+t/home/stas/.local/share/vifm/Trash/000_TA-98.NA.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-98.NA.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-98.+S9.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-98.+S9.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-100.FALSE.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-100.FALSE.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-100.NA.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-100.NA.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-100.-S9.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-100.-S9.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-97.S9+.png
+	/home/stas/Documents/Ames-thr/HISTORY/TA-97.S9+.png
+t/home/stas/.local/share/vifm/Trash/000_TA-97.S9-.png
+	/home/stas/Documents/Ames-thr/HISTORY/TA-97.S9-.png
+t/home/stas/.local/share/vifm/Trash/000_TA-98.S9+.png
+	/home/stas/Documents/Ames-thr/HISTORY/TA-98.S9+.png
+t/home/stas/.local/share/vifm/Trash/000_TA-100.+S9.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-100.+S9.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-97.+S9.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-97.+S9.jpeg
+t/home/stas/.local/share/vifm/Trash/000_TA-102.+S9.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-102.+S9.jpeg
+t/home/stas/.local/share/vifm/Trash/000_Rplots.pdf
+	/home/stas/Documents/Ames-thr/HISTORY/Rplots.pdf
+t/home/stas/.local/share/vifm/Trash/000_TA-97.-S9.jpeg
+	/home/stas/Documents/Ames-thr/HISTORY/TA-97.-S9.jpeg
+t/home/stas/.local/share/vifm/Trash/000_README.txt
+	/home/stas/Downloads/ncbi-genomes-2020-09-04/README.txt
+t/home/stas/.local/share/vifm/Trash/000_md5checksums.txt
+	/home/stas/Downloads/ncbi-genomes-2020-09-04/md5checksums.txt
+t/home/stas/.local/share/vifm/Trash/000_ncbi-genomes-2020-09-04
+	/home/stas/Downloads/ncbi-genomes-2020-09-04
+t/home/stas/.local/share/vifm/Trash/000_Msbt_Marc.fna.mafft
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Msbt_Marc.fna.mafft
+t/home/stas/.local/share/vifm/Trash/000_SRR_Acc_List.txt
+	/home/stas/Downloads/SRR_Acc_List.txt
+t/home/stas/.local/share/vifm/Trash/000_mummer-4.0.0beta2 (1).tar.gz
+	/home/stas/Downloads/mummer-4.0.0beta2 (1).tar.gz
+t/home/stas/.local/share/vifm/Trash/000_mummer-4.0.0beta2.tar
+	/home/stas/Programs/mummer-4.0.0beta2.tar
+t/home/stas/.local/share/vifm/Trash/000_mummer-4.0.0beta2.tar.gz
+	/home/stas/Programs/mummer-4.0.0beta2.tar.gz
+t/home/stas/.local/share/vifm/Trash/000_Mvet_16S.fa
+	/home/stas/Downloads/Mvet_16S.fa
+t/home/stas/.local/share/vifm/Trash/000_Marc_16S.fa
+	/home/stas/Downloads/Marc_16S.fa
+t/home/stas/.local/share/vifm/Trash/000_mauve
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/mauve
+t/home/stas/.local/share/vifm/Trash/000_mugsy
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/mugsy
+t/home/stas/.local/share/vifm/Trash/000_Msbt_Marc1.fna
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Msbt_Marc1.fna
+t/home/stas/.local/share/vifm/Trash/000_Msbt_Marc1.fna.mafft
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Msbt_Marc1.fna.mafft
+t/home/stas/.local/share/vifm/Trash/000_Msbt_Marc.fna
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Msbt_Marc.fna
+t/home/stas/.local/share/vifm/Trash/000_tmp.mfa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/vista/tmp.mfa
+t/home/stas/.local/share/vifm/Trash/000_tmp1.mfa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/vista/tmp1.mfa
+t/home/stas/.local/share/vifm/Trash/000_tmp2.mfa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/vista/tmp2.mfa
+t/home/stas/.local/share/vifm/Trash/000_Metb_16S_RefSec.fasta
+	/home/stas/Downloads/Metb_16S_RefSec.fasta
+t/home/stas/.local/share/vifm/Trash/000_Metb_16S_genomic.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/Metb_16S_genomic.fasta
+t/home/stas/.local/share/vifm/Trash/000_Metb_16S_genomic.fasta.bionj
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/Metb_16S_genomic.fasta.bionj
+t/home/stas/.local/share/vifm/Trash/000_Metb_16S_genomic.fasta.ckp.gz
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/Metb_16S_genomic.fasta.ckp.gz
+t/home/stas/.local/share/vifm/Trash/000_Metb_16S_genomic.fasta.iqtree
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/Metb_16S_genomic.fasta.iqtree
+t/home/stas/.local/share/vifm/Trash/000_Metb_16S_genomic.fasta.log
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/Metb_16S_genomic.fasta.log
+t/home/stas/.local/share/vifm/Trash/000_Metb_16S_genomic.fasta.mldist
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/Metb_16S_genomic.fasta.mldist
+t/home/stas/.local/share/vifm/Trash/000_Metb_16S_genomic.fasta.model.gz
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/Metb_16S_genomic.fasta.model.gz
+t/home/stas/.local/share/vifm/Trash/000_Metb_16S_genomic.fasta.splits.nex
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/Metb_16S_genomic.fasta.splits.nex
+t/home/stas/.local/share/vifm/Trash/000_Metb_16S_genomic.fasta.treefile
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/Metb_16S_genomic.fasta.treefile
+t/home/stas/.local/share/vifm/Trash/000_Metb_16S_genomic.fasta.uniqueseq.phy
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/Metb_16S_genomic.fasta.uniqueseq.phy
+t/home/stas/.local/share/vifm/Trash/000_Metb_16S_WGS.fasta
+	/home/stas/Downloads/Metb_16S_WGS.fasta
+t/home/stas/.local/share/vifm/Trash/000_out.1coords
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mfrm/out.1coords
+t/home/stas/.local/share/vifm/Trash/000_out.1delta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mfrm/out.1delta
+t/home/stas/.local/share/vifm/Trash/000_out.delta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mfrm/out.delta
+t/home/stas/.local/share/vifm/Trash/000_out.mcoords
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mfrm/out.mcoords
+t/home/stas/.local/share/vifm/Trash/000_out.mdelta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mfrm/out.mdelta
+t/home/stas/.local/share/vifm/Trash/000_out.qdiff
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mfrm/out.qdiff
+t/home/stas/.local/share/vifm/Trash/000_out.rdiff
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mfrm/out.rdiff
+t/home/stas/.local/share/vifm/Trash/000_out.snps
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mfrm/out.snps
+t/home/stas/.local/share/vifm/Trash/001_out.1coords
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Msbt/out.1coords
+t/home/stas/.local/share/vifm/Trash/001_out.1delta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Msbt/out.1delta
+t/home/stas/.local/share/vifm/Trash/001_out.delta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Msbt/out.delta
+t/home/stas/.local/share/vifm/Trash/001_out.mcoords
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Msbt/out.mcoords
+t/home/stas/.local/share/vifm/Trash/001_out.mdelta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Msbt/out.mdelta
+t/home/stas/.local/share/vifm/Trash/001_out.qdiff
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Msbt/out.qdiff
+t/home/stas/.local/share/vifm/Trash/001_out.rdiff
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Msbt/out.rdiff
+t/home/stas/.local/share/vifm/Trash/001_out.snps
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Msbt/out.snps
+t/home/stas/.local/share/vifm/Trash/002_out.1coords
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Marc/out.1coords
+t/home/stas/.local/share/vifm/Trash/002_out.1delta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Marc/out.1delta
+t/home/stas/.local/share/vifm/Trash/002_out.delta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Marc/out.delta
+t/home/stas/.local/share/vifm/Trash/002_out.mcoords
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Marc/out.mcoords
+t/home/stas/.local/share/vifm/Trash/002_out.mdelta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Marc/out.mdelta
+t/home/stas/.local/share/vifm/Trash/002_out.qdiff
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Marc/out.qdiff
+t/home/stas/.local/share/vifm/Trash/002_out.rdiff
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Marc/out.rdiff
+t/home/stas/.local/share/vifm/Trash/002_out.snps
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Marc/out.snps
+t/home/stas/.local/share/vifm/Trash/000_Mfrm_Marc_Vista.zip
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mfrm/Mfrm_Marc_Vista.zip
+t/home/stas/.local/share/vifm/Trash/000_GCF_000745485.1_ASM74548v1_genomic.gbff.sslist
+	/home/stas/Programs/mauve_snapshot_2015-02-13/GCF_000745485.1_ASM74548v1_genomic.gbff.sslist
+t/home/stas/.local/share/vifm/Trash/000_GCF_000746075.1_ASM74607v1_genomic.gbff
+	/home/stas/Programs/mauve_snapshot_2015-02-13/GCF_000746075.1_ASM74607v1_genomic.gbff
+t/home/stas/.local/share/vifm/Trash/001_GCF_000745485.1_ASM74548v1_genomic.gbff
+	/home/stas/Programs/mauve_snapshot_2015-02-13/GCF_000745485.1_ASM74548v1_genomic.gbff
+t/home/stas/.local/share/vifm/Trash/000_GCF_000745485.1_ASM74548v1_genomic.fna
+	/home/stas/Programs/mauve_snapshot_2015-02-13/GCF_000745485.1_ASM74548v1_genomic.fna
+t/home/stas/.local/share/vifm/Trash/000_GCF_000746075.1_ASM74607v1_genomic.fna
+	/home/stas/Programs/mauve_snapshot_2015-02-13/GCF_000746075.1_ASM74607v1_genomic.fna
+t/home/stas/.local/share/vifm/Trash/000_Mfrm_BRM9.fasta.sslist
+	/home/stas/Programs/mauve_snapshot_2015-02-13/Mfrm_BRM9.fasta.sslist
+t/home/stas/.local/share/vifm/Trash/000_Mfrm_Mvet.fasta
+	/home/stas/Programs/mauve_snapshot_2015-02-13/Mfrm_Mvet.fasta
+t/home/stas/.local/share/vifm/Trash/000_Mvet_GCF_000745485.1_ASM74548v1_genomic.fna
+	/home/stas/Programs/mauve_snapshot_2015-02-13/Mvet_GCF_000745485.1_ASM74548v1_genomic.fna
+t/home/stas/.local/share/vifm/Trash/000_Mfrm_BRM9.fasta
+	/home/stas/Programs/mauve_snapshot_2015-02-13/Mfrm_BRM9.fasta
+t/home/stas/.local/share/vifm/Trash/000_mauve_linux_snapshot_2015-02-13 (1).tar.gz
+	/home/stas/Downloads/mauve_linux_snapshot_2015-02-13 (1).tar.gz
+t/home/stas/.local/share/vifm/Trash/000_compl
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mpal/compl
+t/home/stas/.local/share/vifm/Trash/000_Mvet_medusa_Marc_medusa.1coords
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/Mvet_medusa_Marc_medusa.1coords
+t/home/stas/.local/share/vifm/Trash/000_Mvet_medusa_Marc_medusa.1delta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/Mvet_medusa_Marc_medusa.1delta
+t/home/stas/.local/share/vifm/Trash/000_Mvet_medusa_Marc_medusa.mcoords
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/Mvet_medusa_Marc_medusa.mcoords
+t/home/stas/.local/share/vifm/Trash/000_Mvet_medusa_Marc_medusa.mdelta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/Mvet_medusa_Marc_medusa.mdelta
+t/home/stas/.local/share/vifm/Trash/000_Mvet_medusa_Marc_medusa.qdiff
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/Mvet_medusa_Marc_medusa.qdiff
+t/home/stas/.local/share/vifm/Trash/000_Mvet_medusa_Marc_medusa.rdiff
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/Mvet_medusa_Marc_medusa.rdiff
+t/home/stas/.local/share/vifm/Trash/000_Mvet_medusa_Marc_medusa.snps
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/Mvet_medusa_Marc_medusa.snps
+t/home/stas/.local/share/vifm/Trash/000_alignments.zip
+	/home/stas/Downloads/alignments.zip
+t/home/stas/.local/share/vifm/Trash/000_NZ_JQJK01000001.1.mfa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/vista/NZ_JQJK01000001.1.mfa
+t/home/stas/.local/share/vifm/Trash/000_NZ_JQJK01000002.1.mfa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/vista/NZ_JQJK01000002.1.mfa
+t/home/stas/.local/share/vifm/Trash/000_NZ_JQJK01000003.1.mfa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/vista/NZ_JQJK01000003.1.mfa
+t/home/stas/.local/share/vifm/Trash/000_NZ_JQJK01000004.1.mfa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/vista/NZ_JQJK01000004.1.mfa
+t/home/stas/.local/share/vifm/Trash/000_NZ_JQJK01000008.1.mfa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/vista/NZ_JQJK01000008.1.mfa
+t/home/stas/.local/share/vifm/Trash/000_NZ_JQJK01000009.1.mfa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/vista/NZ_JQJK01000009.1.mfa
+t/home/stas/.local/share/vifm/Trash/000_NZ_JQJK01000014.1.mfa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/vista/NZ_JQJK01000014.1.mfa
+t/home/stas/.local/share/vifm/Trash/000_NZ_JQJK01000015.1.mfa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/vista/NZ_JQJK01000015.1.mfa
+t/home/stas/.local/share/vifm/Trash/000_NZ_JQJK01000016.1.mfa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/vista/NZ_JQJK01000016.1.mfa
+t/home/stas/.local/share/vifm/Trash/000_NZ_JQJK01000017.1.mfa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/vista/NZ_JQJK01000017.1.mfa
+t/home/stas/.local/share/vifm/Trash/000_NZ_JQJK01000018.1.mfa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/vista/NZ_JQJK01000018.1.mfa
+t/home/stas/.local/share/vifm/Trash/000_NZ_KN050693.1.mfa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/vista/NZ_KN050693.1.mfa
+t/home/stas/.local/share/vifm/Trash/000_NZ_KN050694.1.mfa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/vista/NZ_KN050694.1.mfa
+t/home/stas/.local/share/vifm/Trash/001_alignments.zip
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/ALIGNMENTS/vista/alignments.zip
+t/home/stas/.local/share/vifm/Trash/000_Mcon_Mvet_medusa_promer.aaqry
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mcon/Mcon_Mvet_medusa_promer.aaqry
+t/home/stas/.local/share/vifm/Trash/000_Mcon_Mvet_medusa_promer.aaref
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mcon/Mcon_Mvet_medusa_promer.aaref
+t/home/stas/.local/share/vifm/Trash/000_Mcon_Mvet_medusa_promer.delta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mcon/Mcon_Mvet_medusa_promer.delta
+t/home/stas/.local/share/vifm/Trash/000_Mcon_Mvet_medusa_promer.mgaps
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mcon/Mcon_Mvet_medusa_promer.mgaps
+t/home/stas/.local/share/vifm/Trash/000_mas.21359.pdf
+	/home/stas/Pictures/mas.21359.pdf
+t/home/stas/.local/share/vifm/Trash/000_gmes_linux_64 (1).tar.gz
+	/home/stas/Downloads/gmes_linux_64 (1).tar.gz
+t/home/stas/.local/share/vifm/Trash/000_gm_key_64 (1).gz
+	/home/stas/Downloads/gm_key_64 (1).gz
+t/home/stas/.local/share/vifm/Trash/000_Programs.zip
+	/home/stas/Programs/gmes_linux_64/Programs.zip
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.pdf
+	/home/stas/Downloads/AL3_15_meta-blastRotiferaGenomes.pdf
+t/home/stas/.local/share/vifm/Trash/000_discord-0.0.12.deb
+	/home/stas/Downloads/discord-0.0.12.deb
+t/home/stas/.local/share/vifm/Trash/000_Положитесь на Пита Lean on Pete (Эндрю Хэй Andrew Haigh) [2017, Великобритания, драма, приключения, HDRip] MVO (ViP Premiere) [rutracker-5745771].torrent
+	/home/stas/Downloads/Положитесь на Пита Lean on Pete (Эндрю Хэй Andrew Haigh) [2017, Великобритания, драма, приключения, HDRip] MVO (ViP Premiere) [rutracker-5745771].torrent
+t/home/stas/.local/share/vifm/Trash/000_Фаворитка The Favourite (Йоргос Лантимос Yorgos Lanthimos) [2018, Ирландия, Великобритания, США, драма, комедия, биография, ис [rutracker-5700331].torrent
+	/home/stas/Downloads/Фаворитка The Favourite (Йоргос Лантимос Yorgos Lanthimos) [2018, Ирландия, Великобритания, США, драма, комедия, биография, ис [rutracker-5700331].torrent
+t/home/stas/.local/share/vifm/Trash/000_Attachments-Re_ test.zip
+	/home/stas/Downloads/Attachments-Re_ test.zip
+t/home/stas/.local/share/vifm/Trash/000_Screenshot from 2020-09-28 19-03-00.png
+	/home/stas/Downloads/Screenshot from 2020-09-28 19-03-00.png
+t/home/stas/.local/share/vifm/Trash/000_Cryosol-logo.png
+	/home/stas/Pictures/SHARE/LOGO/Cryosol-logo.png
+t/home/stas/.local/share/vifm/Trash/000_XXI_2 (1).pdf
+	/home/stas/Downloads/XXI_2 (1).pdf
+t/home/stas/.local/share/vifm/Trash/000_tsetup.2.4.2.tar.xz
+	/home/stas/Downloads/tsetup.2.4.2.tar.xz
+t/home/stas/.local/share/vifm/Trash/000_Telegram
+	/home/stas/Downloads/Telegram
+t/home/stas/.local/share/vifm/Trash/000_1954622.pdf
+	/home/stas/Downloads/1954622.pdf
+t/home/stas/.local/share/vifm/Trash/000_67 kazansky.pdf
+	/home/stas/Downloads/67 kazansky.pdf
+t/home/stas/.local/share/vifm/Trash/000_panasyuk.txt
+	/home/stas/Videos/Zoom/2020-10-05-AstroBio-1/panasyuk.txt
+t/home/stas/.local/share/vifm/Trash/000_Панасюк2.mp4
+	/home/stas/Videos/Zoom/2020-10-05-AstroBio-1/Панасюк2.mp4
+t/home/stas/.local/share/vifm/Trash/000_Панасюк1.mp4
+	/home/stas/Videos/Zoom/2020-10-05-AstroBio-1/Панасюк1.mp4
+t/home/stas/.local/share/vifm/Trash/000_Твердислов1.mp4
+	/home/stas/Videos/Zoom/2020-10-05-AstroBio-1/Твердислов1.mp4
+t/home/stas/.local/share/vifm/Trash/000_Caveat.zip
+	/home/stas/.fonts/Caveat.zip
+t/home/stas/.local/share/vifm/Trash/000_ЦИН-2020-Malavin-pdf.pdf
+	/home/stas/Downloads/ЦИН-2020-Malavin-pdf.pdf
+t/home/stas/.local/share/vifm/Trash/000_1-01 Hey You.m4a
+	/home/stas/Downloads/1-01 Hey You.m4a
+t/home/stas/.local/share/vifm/Trash/000_1-04 Another Brick In the Wall, Pt..m4a
+	/home/stas/Downloads/1-04 Another Brick In the Wall, Pt..m4a
+t/home/stas/.local/share/vifm/Trash/000_1-05 Have a Cigar.m4a
+	/home/stas/Downloads/1-05 Have a Cigar.m4a
+t/home/stas/.local/share/vifm/Trash/000_1-06 Wish You Were Here.m4a
+	/home/stas/Downloads/1-06 Wish You Were Here.m4a
+t/home/stas/.local/share/vifm/Trash/000_1-07 Time (Edited).m4a
+	/home/stas/Downloads/1-07 Time (Edited).m4a
+t/home/stas/.local/share/vifm/Trash/000_1-08 The Great Gig In the Sky.m4a
+	/home/stas/Downloads/1-08 The Great Gig In the Sky.m4a
+t/home/stas/.local/share/vifm/Trash/000_1-09 Money.m4a
+	/home/stas/Downloads/1-09 Money.m4a
+t/home/stas/.local/share/vifm/Trash/000_1-10 Comfortably Numb.m4a
+	/home/stas/Downloads/1-10 Comfortably Numb.m4a
+t/home/stas/.local/share/vifm/Trash/000_1-11 High Hopes (Edited).m4a
+	/home/stas/Downloads/1-11 High Hopes (Edited).m4a
+t/home/stas/.local/share/vifm/Trash/000_1-12 Learning to Fly.m4a
+	/home/stas/Downloads/1-12 Learning to Fly.m4a
+t/home/stas/.local/share/vifm/Trash/000_1-13 The Fletcher Memorial Home.m4a
+	/home/stas/Downloads/1-13 The Fletcher Memorial Home.m4a
+t/home/stas/.local/share/vifm/Trash/000_1-14 Shine On You Crazy Diamond, Pts.m4a
+	/home/stas/Downloads/1-14 Shine On You Crazy Diamond, Pts.m4a
+t/home/stas/.local/share/vifm/Trash/000_1-15 Brain Damage.m4a
+	/home/stas/Downloads/1-15 Brain Damage.m4a
+t/home/stas/.local/share/vifm/Trash/000_1-02 See Emily Play.m4a
+	/home/stas/Downloads/1-02 See Emily Play.m4a
+t/home/stas/.local/share/vifm/Trash/000_1-03 The Happiest Days of Our Lives.m4a
+	/home/stas/Downloads/1-03 The Happiest Days of Our Lives.m4a
+t/home/stas/.local/share/vifm/Trash/000_1-16 Eclipse.m4a
+	/home/stas/Downloads/1-16 Eclipse.m4a
+t/home/stas/.local/share/vifm/Trash/000_-
+	/home/stas/Music/-
+t/home/stas/.local/share/vifm/Trash/000_Best
+	/home/stas/Music/Best
+t/home/stas/.local/share/vifm/Trash/000_Floyd
+	/home/stas/Music/Floyd
+t/home/stas/.local/share/vifm/Trash/000_The
+	/home/stas/Music/The
+t/home/stas/.local/share/vifm/Trash/000_1-01 Hey You.mp3
+	/home/stas/Music/Pink Floyd - The Best/1-01 Hey You.mp3
+t/home/stas/.local/share/vifm/Trash/000_Telegram Desktop
+	/home/stas/Downloads/Telegram Desktop
+t/home/stas/.local/share/vifm/Trash/000_.xsession-errors
+	/home/stas/.xsession-errors
+t/home/stas/.local/share/vifm/Trash/000_.xsession-errors.old
+	/home/stas/.xsession-errors.old
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.full.fasta.bionj
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.full.fasta.bionj
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.full.fasta.ckp.gz
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.full.fasta.ckp.gz
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.full.fasta.iqtree
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.full.fasta.iqtree
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.full.fasta.log
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.full.fasta.log
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.full.fasta.mldist
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.full.fasta.mldist
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.full.fasta.model.gz
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.full.fasta.model.gz
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.full.fasta.splits.nex
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.full.fasta.splits.nex
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.full.fasta.treefile
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.full.fasta.treefile
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.full.fasta.contree
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.full.fasta.contree
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes_ML_TIM2.png
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes_ML_TIM2.png
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.png
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes.png
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes_001.png
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes_001.png
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes_002.png
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/AL3_15_meta-blastRotiferaGenomes_002.png
+t/home/stas/.local/share/vifm/Trash/000_
+	/home/stas/218-doc/Flamella/19-5/
+t/home/stas/.local/share/vifm/Trash/001_tmp
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/tmp
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes_ML_GTR.pdf
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/AL3_15_meta-blastRotiferaGenomes_ML_GTR.pdf
+t/home/stas/.local/share/vifm/Trash/000_Tun-unfolding (1).mkv
+	/home/stas/Downloads/Tun-unfolding (1).mkv
+t/home/stas/.local/share/vifm/Trash/000_Copy of s7-2 (1).webm
+	/home/stas/Downloads/Copy of s7-2 (1).webm
+t/home/stas/.local/share/vifm/Trash/000_Supplementary File S11.mp4
+	/home/stas/Downloads/Supplementary File S11.mp4
+t/home/stas/.local/share/vifm/Trash/000_seqtrace-0.9.1.tar
+	/home/stas/Downloads/seqtrace-0.9.1.tar
+t/home/stas/.local/share/vifm/Trash/000_seqtrace-0.9.1.tar.gz
+	/home/stas/Downloads/seqtrace-0.9.1.tar.gz
+t/home/stas/.local/share/vifm/Trash/000_1_1432296982_ZC_I+L_021715_TreeBASE (1).nexorg
+	/home/stas/Downloads/1_1432296982_ZC_I+L_021715_TreeBASE (1).nexorg
+t/home/stas/.local/share/vifm/Trash/000_AL3_15_meta-blastRotiferaGenomes.nxs.Allcompat.con(1).tre
+	/home/stas/Documents/SPECIES/Adineta/15-7/SEQ/Actin/mb/AL3_15_meta-blastRotiferaGenomes.nxs.Allcompat.con(1).tre
+t/home/stas/.local/share/vifm/Trash/000_Малявин-и-др.-ПИН-2018.docx
+	/home/stas/Documents/Малявин-и-др.-ПИН-2018.docx
+t/home/stas/.local/share/vifm/Trash/000_Marc
+	/home/stas/Documents/BIOINFO/Methanobacterium/MethaBac-code/Marc
+t/home/stas/.local/share/vifm/Trash/000_.vimrc
+	/home/stas/.vimrc
+t/home/stas/.local/share/vifm/Trash/000_trim-and-align.sh
+	/home/stas/Downloads/trim-and-align.sh
+t/home/stas/.local/share/vifm/Trash/000_-bowtie_mapped.bam
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/250/-bowtie_mapped.bam
+t/home/stas/.local/share/vifm/Trash/000_log
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/250/log
+t/home/stas/.local/share/vifm/Trash/000_CB_cover_letter.docx
+	/home/stas/Downloads/CB_cover_letter.docx
+t/home/stas/.local/share/vifm/Trash/001_CB_cover_letter.docx
+	/home/stas/Documents/CB_cover_letter.docx
+t/home/stas/.local/share/vifm/Trash/002_CB_cover_letter.docx
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/CB_cover_letter.docx
+t/home/stas/.local/share/vifm/Trash/000_openvpn-repo-pkg-key.pub
+	/home/stas/Downloads/openvpn-repo-pkg-key.pub
+t/home/stas/.local/share/vifm/Trash/000_LCA-foraging-master.zip
+	/home/stas/Downloads/LCA-foraging-master.zip
+t/home/stas/.local/share/vifm/Trash/000_Natural_Earth_quick_start
+	/home/stas/Documents/GIS/Natural_Earth_quick_start/Natural_Earth_quick_start
+t/home/stas/.local/share/vifm/Trash/000_Map.pdf
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Map.pdf
+t/home/stas/.local/share/vifm/Trash/000_Figure1.png
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Fig/Figure1.png
+t/home/stas/.local/share/vifm/Trash/000_Figure S1.png
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Fig/Figure S1.png
+t/home/stas/.local/share/vifm/Trash/000_S3-seq.csv
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/S3-seq.csv
+t/home/stas/.local/share/vifm/Trash/000_Suppl.txt
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Suppl.txt
+t/home/stas/.local/share/vifm/Trash/000_Supplementary File S3.xlsx
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Supplementary File S3.xlsx
+t/home/stas/.local/share/vifm/Trash/000_Supplementary File S4.pdf
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Supplementary File S4.pdf
+t/home/stas/.local/share/vifm/Trash/000_Supplementary File S5.nxs
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Supplementary File S5.nxs
+t/home/stas/.local/share/vifm/Trash/000_Supplementary File S6.fasta
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Supplementary File S6.fasta
+t/home/stas/.local/share/vifm/Trash/000_Supplementary File S6.pdf
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Supplementary File S6.pdf
+t/home/stas/.local/share/vifm/Trash/000_Supplementary File S7.fasta
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Supplementary File S7.fasta
+t/home/stas/.local/share/vifm/Trash/000_Supplementary File S7.pdf
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Supplementary File S7.pdf
+t/home/stas/.local/share/vifm/Trash/000_Supplementary File S8.fasta
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Supplementary File S8.fasta
+t/home/stas/.local/share/vifm/Trash/000_Supplementary File S9.nxs
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Supplementary File S9.nxs
+t/home/stas/.local/share/vifm/Trash/000_Supplementary File S10.nxs
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Supplementary File S10.nxs
+t/home/stas/.local/share/vifm/Trash/000_Supplementary File S11.mp4
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Supplementary File S11.mp4
+t/home/stas/.local/share/vifm/Trash/000_Supplementary File S12 1x.mp4
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Supplementary File S12 1x.mp4
+t/home/stas/.local/share/vifm/Trash/000_Supplementary File S12 8x.mp4
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Supplementary File S12 8x.mp4
+t/home/stas/.local/share/vifm/Trash/000_Adineta-phylogeny.nwk
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/tmp/Adineta-phylogeny.nwk
+t/home/stas/.local/share/vifm/Trash/001_Adineta-phylogeny.nwk
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Adineta-phylogeny.nwk
+t/home/stas/.local/share/vifm/Trash/000_Figure1-freezing-new.png
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Fig/Figure1-freezing-new.png
+t/home/stas/.local/share/vifm/Trash/001_Supplementary File S3.xlsx
+	/home/stas/Downloads/Supplementary File S3.xlsx
+t/home/stas/.local/share/vifm/Trash/000_Supplemental_Info_correspondence.docx
+	/home/stas/Downloads/Supplemental_Info_correspondence.docx
+t/home/stas/.local/share/vifm/Trash/000_2020.rar
+	/home/stas/Downloads/2020.rar
+t/home/stas/.local/share/vifm/Trash/000_R
+	/home/stas/Documents/SPECIES/Acanthamoeba/NMR/R
+t/home/stas/.local/share/vifm/Trash/002_seqdump.mafft
+	/home/stas/Downloads/seqdump.mafft
+t/home/stas/.local/share/vifm/Trash/000_X583W39601R-Alignment.sam
+	/home/stas/Downloads/X583W39601R-Alignment.sam
+t/home/stas/.local/share/vifm/Trash/000_Cогласие на обработку персональных данных Ривкина ЕМ.doc
+	/home/stas/Downloads/Cогласие на обработку персональных данных Ривкина ЕМ.doc
+t/home/stas/.local/share/vifm/Trash/000_типовая форма согласия на обработку персональных данных.doc
+	/home/stas/Downloads/типовая форма согласия на обработку персональных данных.doc
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.fsa_nt~.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt~.fai
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.fsa_nt~
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt~
+t/home/stas/.local/share/vifm/Trash/000_bbmap_250_sorted.1.cl.rmdup~.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/bbmap_250_sorted.1.cl.rmdup~.fasta
+t/home/stas/.local/share/vifm/Trash/000_bbmap_250_sorted.1.cl.rmdup.mafft
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/bbmap_250_sorted.1.cl.rmdup.mafft
+t/home/stas/.local/share/vifm/Trash/000_bbmap_250_sorted.1.cl.rmdup.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/bbmap_250_sorted.1.cl.rmdup.fasta
+t/home/stas/.local/share/vifm/Trash/000_bbmap_250_sorted.1.cl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/bbmap_250_sorted.1.cl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK0101.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK0101.fasta
+t/home/stas/.local/share/vifm/Trash/000_newfile.c.fst
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/newfile.c.fst
+t/home/stas/.local/share/vifm/Trash/000_newfile.fst
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/newfile.fst
+t/home/stas/.local/share/vifm/Trash/000_JQJK01-testcons.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01-testcons.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.fsa_nt.gz
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.gz
+t/home/stas/.local/share/vifm/Trash/000_OEC86303.1.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/OEC86303.1.fa
+t/home/stas/.local/share/vifm/Trash/000_PAV04810.1.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/PAV04810.1.fa
+t/home/stas/.local/share/vifm/Trash/000_2fl.mafft
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/2fl.mafft
+t/home/stas/.local/share/vifm/Trash/000_2fl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/2fl.fasta
+t/home/stas/.local/share/vifm/Trash/000_2rr.mafft
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/2rr.mafft
+t/home/stas/.local/share/vifm/Trash/000_2rl.mafft
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/2rl.mafft
+t/home/stas/.local/share/vifm/Trash/000_2rr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/2rr.fasta
+t/home/stas/.local/share/vifm/Trash/000_2rl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/2rl.fasta
+t/home/stas/.local/share/vifm/Trash/000_2fr.mafft
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/2fr.mafft
+t/home/stas/.local/share/vifm/Trash/000_2fr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/2fr.fasta
+t/home/stas/.local/share/vifm/Trash/000_2.rd.al.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/2.rd.al.fasta
+t/home/stas/.local/share/vifm/Trash/000_2.rd.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/2.rd.fasta
+t/home/stas/.local/share/vifm/Trash/000_2.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/2.fasta
+t/home/stas/.local/share/vifm/Trash/000_2l.mafft
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/2l.mafft
+t/home/stas/.local/share/vifm/Trash/000_2r.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/2r.fasta
+t/home/stas/.local/share/vifm/Trash/000_2r.mafft
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/2r.mafft
+t/home/stas/.local/share/vifm/Trash/000_2l.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/2l.fasta
+t/home/stas/.local/share/vifm/Trash/000_testcons.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/testcons.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.fsa_nt.split.fl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.split.fl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000018.1.fsa_nt.rr.fasta.rr.fasta.fl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.split/JQJK01.1.id_JQJK01000018.1.fsa_nt.rr.fasta.rr.fasta.fl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000018.1.fsa_nt.rr.fasta.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.split/JQJK01.1.id_JQJK01000018.1.fsa_nt.rr.fasta.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000018.1.fsa_nt.rr.fasta.fl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.split/JQJK01.1.id_JQJK01000018.1.fsa_nt.rr.fasta.fl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000018.1.fsa_nt.rr.fasta.fr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.split/JQJK01.1.id_JQJK01000018.1.fsa_nt.rr.fasta.fr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000018.1.fsa_nt.rr.fasta.rl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.split/JQJK01.1.id_JQJK01000018.1.fsa_nt.rr.fasta.rl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000018.1.fsa_nt.rr.fasta.rr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.split/JQJK01.1.id_JQJK01000018.1.fsa_nt.rr.fasta.rr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000018.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.split/JQJK01.1.id_JQJK01000018.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000018.1.fsa_nt.fl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.split/JQJK01.1.id_JQJK01000018.1.fsa_nt.fl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000018.1.fsa_nt.fr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.split/JQJK01.1.id_JQJK01000018.1.fsa_nt.fr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000018.1.fsa_nt.rl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.split/JQJK01.1.id_JQJK01000018.1.fsa_nt.rl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000018.1.fsa_nt.rr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.split/JQJK01.1.id_JQJK01000018.1.fsa_nt.rr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000003.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000003.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000004.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000004.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000005.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000005.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000006.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000006.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000007.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000007.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000008.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000008.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000009.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000009.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000010.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000010.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000011.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000011.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000012.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000012.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000013.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000013.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000014.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000014.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000015.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000015.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000016.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000016.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000017.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000017.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000018.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000018.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000002.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000002.1.fsa_nt.fl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000002.1.fsa_nt.fr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.rl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000002.1.fsa_nt.rl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.rr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000002.1.fsa_nt.rr.fasta
+t/home/stas/.local/share/vifm/Trash/001_JQJK01.1.id_JQJK01000002.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000001.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000001.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/001_JQJK01.1.id_JQJK01000002.1.fsa_nt.fl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.fl.fasta
+t/home/stas/.local/share/vifm/Trash/001_JQJK01.1.id_JQJK01000002.1.fsa_nt.fr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.fr.fasta
+t/home/stas/.local/share/vifm/Trash/001_JQJK01.1.id_JQJK01000002.1.fsa_nt.rl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.rl.fasta
+t/home/stas/.local/share/vifm/Trash/001_JQJK01.1.id_JQJK01000002.1.fsa_nt.rr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.rr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000001.1.fsa_nt.fl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000001.1.fsa_nt.fl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000001.1.fsa_nt.fr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000001.1.fsa_nt.fr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000001.1.fsa_nt.rl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000001.1.fsa_nt.rl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000001.1.fsa_nt.rr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000001.1.fsa_nt.rr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.rl.fasta.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.rl.fasta.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.rr.fasta.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.rr.fasta.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.rr.fasta.fl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.rr.fasta.fl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.rr.fasta.fr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.rr.fasta.fr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.rr.fasta.rl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.rr.fasta.rl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.rr.fasta.rr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.rr.fasta.rr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fl.fasta.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.fl.fasta.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fr.fasta.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.fr.fasta.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fr.fasta.fl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.fr.fasta.fl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fr.fasta.fr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.fr.fasta.fr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fr.fasta.rl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.fr.fasta.rl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fr.fasta.rr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.fr.fasta.rr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.rl.fasta.fl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.rl.fasta.fl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.rl.fasta.fr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.rl.fasta.fr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.rl.fasta.rl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.rl.fasta.rl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.rl.fasta.rr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.rl.fasta.rr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fasta.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.fasta.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fl.fasta.fl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.fl.fasta.fl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fl.fasta.fr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.fl.fasta.fr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fl.fasta.rl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.fl.fasta.rl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fl.fasta.rr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.fl.fasta.rr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fasta.fl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.fasta.fl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fasta.fr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.fasta.fr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fasta.rl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.fasta.rl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fasta.rr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000002.1.fsa_nt.fasta.rr.fasta
+t/home/stas/.local/share/vifm/Trash/000_3.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/3.fasta
+t/home/stas/.local/share/vifm/Trash/000_3.fl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/3.fl.fasta
+t/home/stas/.local/share/vifm/Trash/000_3.fr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/3.fr.fasta
+t/home/stas/.local/share/vifm/Trash/000_3.rl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/3.rl.fasta
+t/home/stas/.local/share/vifm/Trash/000_3.rr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/3.rr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000010.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000010.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000011.1.fsa_nt.fl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000011.1.fsa_nt.fl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000011.1.fsa_nt.fr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000011.1.fsa_nt.fr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000011.1.fsa_nt.rl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000011.1.fsa_nt.rl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000009.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000009.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000008.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000008.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000007.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000007.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000006.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000006.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000003.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000003.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000004.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000004.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000005.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000005.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000001.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000001.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000002.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/001_JQJK01.1.id_JQJK01000018.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000018.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000017.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000017.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000016.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000016.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000015.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000015.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000014.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000014.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000013.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000013.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000012.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000012.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000011.1.fsa_nt.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000011.1.fsa_nt.fasta
+t/home/stas/.local/share/vifm/Trash/000_7r.fst
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/7r.fst
+t/home/stas/.local/share/vifm/Trash/000_7l.fst
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/7l.fst
+t/home/stas/.local/share/vifm/Trash/000_7.fst.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/7.fst.fasta
+t/home/stas/.local/share/vifm/Trash/000_7.fst
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test1/7.fst
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000007.1.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.split/JQJK01.1.id_JQJK01000007.1.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/001_7.fst
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/7.fst
+t/home/stas/.local/share/vifm/Trash/000_7.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/7.fa
+t/home/stas/.local/share/vifm/Trash/000_tmp.fst
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/tmp.fst
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000014.1.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000014.1.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000009.1.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000009.1.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000008.1.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000008.1.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/002_JQJK01.1.id_JQJK01000007.1.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01.1.id_JQJK01000007.1.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000009.1.fsa_nt.rr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000009.1.fsa_nt.rr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000009.1.fsa_nt.rl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000009.1.fsa_nt.rl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000009.1.fsa_nt.fr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000009.1.fsa_nt.fr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000009.1.fsa_nt.fl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000009.1.fsa_nt.fl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000008.1.fsa_nt.seqkit.fai.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000008.1.fsa_nt.seqkit.fai.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000007.1.fsa_nt.seqkit.fai.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000007.1.fsa_nt.seqkit.fai.fasta
+t/home/stas/.local/share/vifm/Trash/000_test1
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test1
+t/home/stas/.local/share/vifm/Trash/000_JQJK01_it1.fst
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01_it1.fst
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.mafft
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.mafft
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.7.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/JQJK01.1.id_JQJK01000002.1.7.fsa_nt
+t/home/stas/.local/share/vifm/Trash/001_JQJK01.1.id_JQJK01000002.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/JQJK01.1.id_JQJK01000002.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_bkp
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/bkp
+t/home/stas/.local/share/vifm/Trash/000_grow_by_bam.sh
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/grow_by_bam.sh
+t/home/stas/.local/share/vifm/Trash/001_JQJK01.1.id_JQJK01000005.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/JQJK01.1.id_JQJK01000005.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/001_JQJK01.1.id_JQJK01000007.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/JQJK01.1.id_JQJK01000007.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/001_JQJK01.1.id_JQJK01000009.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/JQJK01.1.id_JQJK01000009.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/001_JQJK01.1.id_JQJK01000015.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/JQJK01.1.id_JQJK01000015.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_seaview
+	/home/stas/Programs/seaview
+t/home/stas/.local/share/vifm/Trash/000_Amoeba_2020_TSP(1).JPG
+	/home/stas/Downloads/Amoeba_2020_TSP(1).JPG
+t/home/stas/.local/share/vifm/Trash/000_lkjl:sdlfj
+	/home/stas/Downloads/lkjl:sdlfj
+t/home/stas/.local/share/vifm/Trash/000_contig10_to_SWAN1.bam
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/contig10_to_SWAN1.bam
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000010.1.fsa_nt.1-300.fvd.fastq
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000010.1.fsa_nt.1-300.fvd.fastq
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000010.1.fsa_nt.1-300.rev.fastq
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000010.1.fsa_nt.1-300.rev.fastq
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000010.1.fsa_nt.1-600.fvd.fastq
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000010.1.fsa_nt.1-600.fvd.fastq
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000010.1.fsa_nt.1-600.rev.fastq
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.id_JQJK01000010.1.fsa_nt.1-600.rev.fastq
+t/home/stas/.local/share/vifm/Trash/000_aligned.mafft
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/aligned.mafft
+t/home/stas/.local/share/vifm/Trash/000_.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/.fasta
+t/home/stas/.local/share/vifm/Trash/000_aligned.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/aligned.fasta
+t/home/stas/.local/share/vifm/Trash/000_to_align.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/to_align.fasta
+t/home/stas/.local/share/vifm/Trash/000_SWAN1.subseq.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/SWAN1.subseq.fasta
+t/home/stas/.local/share/vifm/Trash/000_iter02
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter02
+t/home/stas/.local/share/vifm/Trash/000_ref
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/ref
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.fa
+t/home/stas/.local/share/vifm/Trash/000_c10.left.fasta.ckp.gz
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/c10.left.fasta.ckp.gz
+t/home/stas/.local/share/vifm/Trash/000_c10.left.fasta.model.gz
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/c10.left.fasta.model.gz
+t/home/stas/.local/share/vifm/Trash/000_c10.left.fasta.log
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/c10.left.fasta.log
+t/home/stas/.local/share/vifm/Trash/000_c10.left.fasta.mldist
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/c10.left.fasta.mldist
+t/home/stas/.local/share/vifm/Trash/000_c10.left.fasta.bionj
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/c10.left.fasta.bionj
+t/home/stas/.local/share/vifm/Trash/000_test
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test
+t/home/stas/.local/share/vifm/Trash/000_JQJK01000009.1.fasta.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter02/cons/JQJK01000009.1.fasta.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01000005.1.1_25000.fasta.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01000005.1.1_25000.fasta.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01000005.1.1_25000.fasta.fl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01000005.1.1_25000.fasta.fl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01000005.1.1_25000.fasta.fr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01000005.1.1_25000.fasta.fr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01000005.1.1_25000.fasta.rl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01000005.1.1_25000.fasta.rl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01000005.1.1_25000.fasta.rr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/JQJK01000005.1.1_25000.fasta.rr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01000005.1~.iter02.mafft
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/iter02/JQJK01000005.1~.iter02.mafft
+t/home/stas/.local/share/vifm/Trash/000_JQJK01000005.1.25500_50409.fasta.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/iter03/JQJK01000005.1.25500_50409.fasta.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01000005.1.25500_50409.fasta.rr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/iter03/JQJK01000005.1.25500_50409.fasta.rr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01000005.1.25500_50409.fasta.fl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/iter03/JQJK01000005.1.25500_50409.fasta.fl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01000005.1.25500_50409.fasta.fr.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/iter03/JQJK01000005.1.25500_50409.fasta.fr.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01000005.1.25500_50409.fasta.rl.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/test/iter03/JQJK01000005.1.25500_50409.fasta.rl.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000005.1.cdhit.fasta
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/fasta/JQJK01.1.id_JQJK01000005.1.cdhit.fasta
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000005.1.cdhit.fasta.clstr
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/fasta/JQJK01.1.id_JQJK01000005.1.cdhit.fasta.clstr
+t/home/stas/.local/share/vifm/Trash/000_contig5.cl.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cd-hit-test/contig5.cl.fa
+t/home/stas/.local/share/vifm/Trash/000_contig5.cl.fa.clstr
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cd-hit-test/contig5.cl.fa.clstr
+t/home/stas/.local/share/vifm/Trash/000_contig5.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cd-hit-test/contig5.fa
+t/home/stas/.local/share/vifm/Trash/000_contig05.cl.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cd-hit-test/contig05.cl.fa
+t/home/stas/.local/share/vifm/Trash/000_contig05.cl.fa.clstr
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cd-hit-test/contig05.cl.fa.clstr
+t/home/stas/.local/share/vifm/Trash/000_contig05.cl.cl.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cd-hit-test/contig05.cl.cl.fa
+t/home/stas/.local/share/vifm/Trash/000_contig05.cl.cl.fa.clstr
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cd-hit-test/contig05.cl.cl.fa.clstr
+t/home/stas/.local/share/vifm/Trash/000_contig02.cl.fa.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cd-hit-test/contig02.cl.fa.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_tmp.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cd-hit-test/tmp.fa
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt_edges
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.split/JQJK01.1.id_JQJK01000002.1.fsa_nt_edges
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt_logfile
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.split/JQJK01.1.id_JQJK01000002.1.fsa_nt_logfile
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt_neededends
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.split/JQJK01.1.id_JQJK01000002.1.fsa_nt_neededends
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt_remains
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.split/JQJK01.1.id_JQJK01000002.1.fsa_nt_remains
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000005.1.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/JQJK01.1.fsa_nt.split/JQJK01.1.id_JQJK01000005.1.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_JQJK01000002.1.fasta_neededends.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter02/fasta/JQJK01000002.1.fasta_neededends.fa
+t/home/stas/.local/share/vifm/Trash/000_f.sbsq.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/separate-repeat-variants/f.sbsq.fa
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.1.fsa_nt.sbsq.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/separate-repeat-variants/JQJK01.1.id_JQJK01000002.1.1.fsa_nt.sbsq.fa
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.2.fsa_nt.sbsq.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/separate-repeat-variants/JQJK01.1.id_JQJK01000002.1.2.fsa_nt.sbsq.fa
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.3.fsa_nt.sbsq.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/separate-repeat-variants/JQJK01.1.id_JQJK01000002.1.3.fsa_nt.sbsq.fa
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.4.fsa_nt.sbsq.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/separate-repeat-variants/JQJK01.1.id_JQJK01000002.1.4.fsa_nt.sbsq.fa
+t/home/stas/.local/share/vifm/Trash/000_cons
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons
+t/home/stas/.local/share/vifm/Trash/000_CH.py
+	/home/stas/Downloads/CH.py
+t/home/stas/.local/share/vifm/Trash/000_Mvet-Marc-mauve
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/Mvet-Marc-mauve
+t/home/stas/.local/share/vifm/Trash/000_Mvet-Marc-mauve.backbone
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/Mvet-Marc-mauve.backbone
+t/home/stas/.local/share/vifm/Trash/000_Mvet-Marc-mauve.bbcols
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/Mvet-Marc-mauve.bbcols
+t/home/stas/.local/share/vifm/Trash/000_Mvet-Marc-mauve.guide_tree
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/Mvet-Marc-mauve.guide_tree
+t/home/stas/.local/share/vifm/Trash/000_Mvet_GCF_000745485.1_ASM74548v1_genomic.fna.sslist
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/Mvet_GCF_000745485.1_ASM74548v1_genomic.fna.sslist
+t/home/stas/.local/share/vifm/Trash/000_igv:igv-1.log
+	/home/stas/igv:igv-1.log
+t/home/stas/.local/share/vifm/Trash/000_igv:igv-2.log
+	/home/stas/igv:igv-2.log
+t/home/stas/.local/share/vifm/Trash/000_igv:igv-3.log
+	/home/stas/igv:igv-3.log
+t/home/stas/.local/share/vifm/Trash/000_igv:igv-4.log
+	/home/stas/igv:igv-4.log
+t/home/stas/.local/share/vifm/Trash/000_igv:igv-5.log
+	/home/stas/igv:igv-5.log
+t/home/stas/.local/share/vifm/Trash/000_igv:igv-6.log
+	/home/stas/igv:igv-6.log
+t/home/stas/.local/share/vifm/Trash/000_igv:igv-7.log
+	/home/stas/igv:igv-7.log
+t/home/stas/.local/share/vifm/Trash/000_busco_2139788292.log
+	/home/stas/busco_2139788292.log
+t/home/stas/.local/share/vifm/Trash/000_busco_3177896412.log
+	/home/stas/busco_3177896412.log
+t/home/stas/.local/share/vifm/Trash/000_busco_2927713311.log
+	/home/stas/busco_2927713311.log
+t/home/stas/.local/share/vifm/Trash/000_busco_286484373.log
+	/home/stas/busco_286484373.log
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000015.1.2.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000015.1.2.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000015.1.1.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000015.1.1.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/003_JQJK01.1.id_JQJK01000014.1.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000014.1.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000013.1.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000013.1.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000012.1.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000012.1.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000011.1.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000011.1.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000009.1.3.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000009.1.3.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000009.1.2.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000009.1.2.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000009.1.1.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000009.1.1.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/003_JQJK01.1.id_JQJK01000008.1.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000008.1.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000007.1.2.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000007.1.2.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000007.1.1.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000007.1.1.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000006.1.fsa_nt.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000006.1.fsa_nt.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_contig10.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/fasta/contig10.fa
+t/home/stas/.local/share/vifm/Trash/000_contig10_1_trim.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/fasta/contig10_1_trim.fa
+t/home/stas/.local/share/vifm/Trash/000_contig10_1.fa.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/fasta/contig10_1.fa.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.fsa_nt.fasta.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/fasta/JQJK01.1.id_JQJK01000002.1.fsa_nt.fasta.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000010.1.fsa_nt.fasta.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/fasta/JQJK01.1.id_JQJK01000010.1.fsa_nt.fasta.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000002.1.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.2.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000002.1.2.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.3.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000002.1.3.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.4.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000002.1.4.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.5.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000002.1.5.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000002.1.6.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000002.1.6.fsa_nt
+t/home/stas/.local/share/vifm/Trash/001_JQJK01.1.id_JQJK01000002.1.7.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000002.1.7.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000005.1.fsa_nt.fasta.seqkit.fai
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/fasta/JQJK01.1.id_JQJK01000005.1.fsa_nt.fasta.seqkit.fai
+t/home/stas/.local/share/vifm/Trash/000_contig05_1_trim.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/fasta/contig05_1_trim.fa
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000005.1.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000005.1.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000005.1.2.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000005.1.2.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000007.1.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000007.1.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000007.1.2.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000007.1.2.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000009.1.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000009.1.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000009.1.2.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000009.1.2.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000009.1.3.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000009.1.3.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000015.1.1.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000015.1.1.fsa_nt
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.1.id_JQJK01000015.1.2.fsa_nt
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/cons/JQJK01.1.id_JQJK01000015.1.2.fsa_nt
+t/home/stas/.local/share/vifm/Trash/002_ref
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/ref
+t/home/stas/.local/share/vifm/Trash/000_JQJK01.it01.trim.fa
+	/home/stas/Documents/BIOINFO/Methanobacterium/GENOMES/Mvet/iter01/JQJK01.it01.trim.fa
+t/home/stas/.local/share/vifm/Trash/000_busco_957249550.log
+	/home/stas/Documents/SPECIES/16-2/SEQ/NGS/Assemblies/busco_957249550.log
+t/home/stas/.local/share/vifm/Trash/000_busco_1405465376.log
+	/home/stas/Documents/SPECIES/16-2/SEQ/NGS/Assemblies/busco_1405465376.log
+t/home/stas/.local/share/vifm/Trash/000_Kola-2019-coords1.txt
+	/home/stas/Documents/Kola-2019-coords1.txt
+t/home/stas/.local/share/vifm/Trash/000_Kola-2019-coords.tsv
+	/home/stas/Documents/Kola-2019-coords.tsv
+t/home/stas/.local/share/vifm/Trash/000_.swo
+	/home/stas/.swo
+t/home/stas/.local/share/vifm/Trash/000_ee-02.protonvpn.com.udp.ovpn
+	/home/stas/.config/ovpn/ee-02.protonvpn.com.udp.ovpn
+t/home/stas/.local/share/vifm/Trash/000_.~lock.Стратегия социально-экономического развития (1).docx#
+	/home/stas/Downloads/.~lock.Стратегия социально-экономического развития (1).docx#
+t/home/stas/.local/share/vifm/Trash/000_.~lock.Supplementary File S3.ods#
+	/home/stas/Downloads/.~lock.Supplementary File S3.ods#
+t/home/stas/.local/share/vifm/Trash/000_.~lock.27618.14.09.2015.14.09.2019.1.0.0.ru.utf8.00000000.csv#
+	/home/stas/Downloads/.~lock.27618.14.09.2015.14.09.2019.1.0.0.ru.utf8.00000000.csv#
+t/home/stas/.local/share/vifm/Trash/000_OBS
+	/home/stas/Videos/OBS
+t/home/stas/.local/share/vifm/Trash/000_org.remmina.Remmina.flatpakref
+	/home/stas/Downloads/org.remmina.Remmina.flatpakref
+t/home/stas/.local/share/vifm/Trash/000_NX-lic.txt
+	/home/stas/Documents/NX-lic.txt
+t/home/stas/.local/share/vifm/Trash/000_for-Adineta.R
+	/home/stas/Documents/for-Adineta.R
+t/home/stas/.local/share/vifm/Trash/000_CURRENT-BIOLOGY-D-20-02285-Reply-to-rev.docx
+	/home/stas/Downloads/CURRENT-BIOLOGY-D-20-02285-Reply-to-rev.docx
+t/home/stas/.local/share/vifm/Trash/000_2021-01-29 16.08.28 Открытые научные семинары — Пущино 82607513581
+	/home/stas/Downloads/2021-01-29 16.08.28 Открытые научные семинары — Пущино 82607513581
+t/home/stas/.local/share/vifm/Trash/000_2021-01-29 16.32.57 Открытые научные семинары — Пущино 82607513581
+	/home/stas/Downloads/2021-01-29 16.32.57 Открытые научные семинары — Пущино 82607513581
+t/home/stas/.local/share/vifm/Trash/000_2021-01-29 17.11.34 Открытые научные семинары — Пущино 82607513581
+	/home/stas/Downloads/2021-01-29 17.11.34 Открытые научные семинары — Пущино 82607513581
+t/home/stas/.local/share/vifm/Trash/000_Freezing-new.png
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Fig/Freezing-new.png
+t/home/stas/.local/share/vifm/Trash/000_Freezing-new.svg
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Fig/Freezing-new.svg
+t/home/stas/.local/share/vifm/Trash/000_Figure1-Freezing-new.png
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Fig/Figure1-Freezing-new.png
+t/home/stas/.local/share/vifm/Trash/000_Figure1-Freezing.png
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Fig/Figure1-Freezing.png
+t/home/stas/.local/share/vifm/Trash/000_Rplot.png
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Fig/Rplot.png
+t/home/stas/.local/share/vifm/Trash/000_Freezing-new.pdf
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Fig/Freezing-new.pdf
+t/home/stas/.local/share/vifm/Trash/000_Figure1.tiff
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Fig/Figure1.tiff
+t/home/stas/.local/share/vifm/Trash/000_Figure1.xcf
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Fig/Figure1.xcf
+t/home/stas/.local/share/vifm/Trash/000_Figure S1.xcf
+	/home/stas/Downloads/Figure S1.xcf
+t/home/stas/.local/share/vifm/Trash/000_Fig1tree_parts.png
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Fig/Fig1tree_parts.png
+t/home/stas/.local/share/vifm/Trash/000_CURRENT-BIOLOGY-D-20-02285-rev1.docx
+	/home/stas/Downloads/CURRENT-BIOLOGY-D-20-02285-rev1.docx
+t/home/stas/.local/share/vifm/Trash/001_CURRENT-BIOLOGY-D-20-02285-Reply-to-rev.docx
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/CURRENT-BIOLOGY-D-20-02285-Reply-to-rev.docx
+t/home/stas/.local/share/vifm/Trash/000_.debris
+	/home/stas/.config/vifm/.debris
+t/home/stas/.local/share/vifm/Trash/000_Fig(1)
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Fig(1)
+t/home/stas/.local/share/vifm/Trash/000_Fig(2)
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Fig(2)
+t/home/stas/.local/share/vifm/Trash/000_Fig(3)
+	/home/stas/Documents/SPECIES/Adineta/15-7/SUBM/CB/Fig(3)
+t/home/stas/.local/share/vifm/Trash/000_debian-live-10.7.0-amd64-cinnamon.iso.torrent
+	/home/stas/Downloads/debian-live-10.7.0-amd64-cinnamon.iso.torrent
+t/home/stas/.local/share/vifm/Trash/000_debian-live-10.2.0-amd64-kde.iso.torrent
+	/home/stas/Downloads/debian-live-10.2.0-amd64-kde.iso.torrent
+t/home/stas/.local/share/vifm/Trash/000_mmc
+	/home/stas/Documents/_TMP/mmc
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].0
+]F
+s0
