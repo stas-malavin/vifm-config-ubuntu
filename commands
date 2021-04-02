@@ -27,10 +27,10 @@ command! vgrep nvim "+grep %a"
 "command! vgrep vim "+grep %a"
 command! vim gnome-terminal -- nvim %a
 "command! vim gnome-terminal -- vim %a
-command! ff firefox %i &
 command! gimp gimp %a %i &
 command! pdf zathura %c & 2> /dev/null
 command! rb sudo reboot
 command! ej eject -v %d/%c
+command! wcl cat %c | grep "%a" | wc -l %m
 "command! olli curlftpfs -o user=amphipod:amphipod amphipod.dnsalias.net -r /mnt/OLLI
 "command! cafa curlftpfs -o user=cafaca_stas kryton.beget.ru ~/Documents/LMR_SITE/temp.cafa.su

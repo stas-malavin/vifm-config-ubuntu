@@ -110,8 +110,7 @@ filetype {*.md,*.txt,*.todo,*.notes,*.vim,*rc,*.css} gnome-terminal  -- nvim %c
 filextype {*.ps,*.eps,*.ps.gz},<application/postscript>
 
 " Djvu
-filextype {*.djvu},<image/vnd.djvu>
-	"\ atril -f %c %i &
+filextype {*.djvu},<image/vnd.djvu> evince %c %i &
 
 " Audio
 filextype {*.wav,*.mp3,*.flac,*.m4a,*.wma,*.ape,*.ac3,*.og[agx],*.spx,*.opus},
@@ -266,7 +265,7 @@ filextype {*.doc,*.docx,*.rtf,*.xls,*.xlsx,*.ppt,*.pptx,
 \<application/vnd.openxmlformats-officedocument.*,
 \application/msword,
 \application/vnd.ms-excel>
-\ onlyoffice-desktopeditors %c %i &,libreoffice %c %i &
+\ libreoffice %c %i &,onlyoffice-desktopeditors %c %i &
 fileviewer {*.doc},<application/msword> catdoc %c
 fileviewer {*.docx},\<application/
 \vnd.openxmlformats-officedocument.wordprocessingml.document>
